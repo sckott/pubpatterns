@@ -1,0 +1,57 @@
+{
+  "publisher": "plos",
+  "crossref_member": 340,
+  "urls": null,
+  "regex": "[0-9]{5}$",
+  "open_access": true,
+  "journals": {
+  	"plosone": {
+  		"urls": {
+  			"pdf": "http://www.journals.plos.org/plosone/article/asset?id=%s.PDF",
+  			"xml": "http://www.journals.plos.org/plosone/article/asset?id=%s.XML"
+  		}
+  	},
+  	"plosbiology": {
+  		"urls": {
+  			"pdf": "http://www.journals.plos.org/plosbiology/article/asset?id=%s.PDF",
+  			"xml": "http://www.journals.plos.org/plosbiology/article/asset?id=%s.XML"
+  		}
+  	},
+  	"plosmedicine": {
+  		"urls": {
+  			"pdf": "http://www.journals.plos.org/plosmedicine/article/asset?id=%s.PDF",
+  			"xml": "http://www.journals.plos.org/plosmedicine/article/asset?id=%s.XML"
+  		}
+  	},
+  	"plosgenetics": {
+  		"urls": {
+  			"pdf": "http://www.journals.plos.org/plosgenetics/article/asset?id=%s.PDF",
+  			"xml": "http://www.journals.plos.org/plosgenetics/article/asset?id=%s.XML"
+  		}
+  	},
+  	"ploscompbiol": {
+  		"urls": {
+  			"pdf": "http://www.journals.plos.org/ploscompbiol/article/asset?id=%s.PDF",
+  			"xml": "http://www.journals.plos.org/ploscompbiol/article/asset?id=%s.XML"
+  		}
+  	},
+  	"plospathogens": {
+  		"urls": {
+  			"pdf": "http://www.journals.plos.org/plospathogens/article/asset?id=%s.PDF",
+  			"xml": "http://www.journals.plos.org/plospathogens/article/asset?id=%s.XML"
+  		}
+  	},
+  	"plosntds": {
+  		"urls": {
+  			"pdf": "http://www.journals.plos.org/plosntds/article/asset?id=%s.PDF",
+  			"xml": "http://www.journals.plos.org/plosntds/article/asset?id=%s.XML"
+  		}
+  	},
+  	"plosclinicaltrials": {
+  		"urls": {
+  			"pdf": "http://www.journals.plos.org/plosclinicaltrials/article/asset?id=%s.PDF",
+  			"xml": "http://www.journals.plos.org/plosclinicaltrials/article/asset?id=%s.XML"
+  		}
+  	}
+  }
+}

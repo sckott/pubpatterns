@@ -1,0 +1,11 @@
+{
+  "publisher": "peerj",
+  "crossref_member": 4443,
+  "urls": {
+  	"pdf": "https://peerj.com/articles/%s.pdf",
+  	"xml": "https://peerj.com/articles/%s.xml"
+  },
+  "regex": "[0-9]{5}+$",
+  "open_access": true,
+  "journals": null
+}

@@ -1,0 +1,9 @@
+{
+  "publisher": "name of the publisher [string]",
+  "crossref_member": "Crossref member number, to more easily come from and go to Crossref data [integer]",
+  "urls": "One or more of xml, pdf, html, or other [hash]",
+  "regex": "regex pattern to extract part of DOI if needed to construct a URL [string]",
+  "open_access": " [boolean]",
+  "journals": "0 or more for each journal within a publisher, with each having keys 'urls', 'regex', 'open_access' [array]",
+  "notes": "any notes [string]"
+}
