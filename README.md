@@ -1,6 +1,8 @@
 pubpatterns
 ===========
 
+[![Build Status](https://api.travis-ci.org/ropenscilabs/pubpatterns.png?branch=master)](https://travis-ci.org/ropenscilabs/pubpatterns)
+
 Use publisher URL patterns to generate full text links to scholarly articles.
 
 ## Spec
