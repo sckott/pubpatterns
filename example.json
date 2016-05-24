@@ -1,0 +1,11 @@
+{
+  "publisher": "widget publisher",
+  "crossref_member": 9999999,
+  "urls": {
+  	"pdf": "https://widgets.org/%s.pdf",
+  	"xml": "https://widgets.org/%s.xml"
+  },
+  "regex": "[0-9]{5}$",
+  "open_access": true,
+  "journals": null
+}

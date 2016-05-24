@@ -3,6 +3,14 @@ pubpatterns
 
 Use publisher URL patterns to generate full text links to scholarly articles.
 
+## Spec
+
+[spec.json](spec.json)
+
+## Example
+
+[example.json](example.json)
+
 ## Patterns
 
 All `.json` files are in the [src/](src/) directory.
