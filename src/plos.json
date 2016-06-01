@@ -1,57 +1,72 @@
 {
   "publisher": "plos",
   "crossref_member": 340,
-  "urls": null,
   "regex": "[0-9]{5}$",
   "open_access": true,
-  "journals": {
-  	"plosone": {
-  		"urls": {
-  			"pdf": "http://www.journals.plos.org/plosone/article/asset?id=%s.PDF",
-  			"xml": "http://www.journals.plos.org/plosone/article/asset?id=%s.XML"
-  		}
-  	},
-  	"plosbiology": {
-  		"urls": {
-  			"pdf": "http://www.journals.plos.org/plosbiology/article/asset?id=%s.PDF",
-  			"xml": "http://www.journals.plos.org/plosbiology/article/asset?id=%s.XML"
-  		}
-  	},
-  	"plosmedicine": {
-  		"urls": {
-  			"pdf": "http://www.journals.plos.org/plosmedicine/article/asset?id=%s.PDF",
-  			"xml": "http://www.journals.plos.org/plosmedicine/article/asset?id=%s.XML"
-  		}
-  	},
-  	"plosgenetics": {
-  		"urls": {
-  			"pdf": "http://www.journals.plos.org/plosgenetics/article/asset?id=%s.PDF",
-  			"xml": "http://www.journals.plos.org/plosgenetics/article/asset?id=%s.XML"
-  		}
-  	},
-  	"ploscompbiol": {
-  		"urls": {
-  			"pdf": "http://www.journals.plos.org/ploscompbiol/article/asset?id=%s.PDF",
-  			"xml": "http://www.journals.plos.org/ploscompbiol/article/asset?id=%s.XML"
-  		}
-  	},
-  	"plospathogens": {
-  		"urls": {
-  			"pdf": "http://www.journals.plos.org/plospathogens/article/asset?id=%s.PDF",
-  			"xml": "http://www.journals.plos.org/plospathogens/article/asset?id=%s.XML"
-  		}
-  	},
-  	"plosntds": {
-  		"urls": {
-  			"pdf": "http://www.journals.plos.org/plosntds/article/asset?id=%s.PDF",
-  			"xml": "http://www.journals.plos.org/plosntds/article/asset?id=%s.XML"
-  		}
-  	},
-  	"plosclinicaltrials": {
-  		"urls": {
-  			"pdf": "http://www.journals.plos.org/plosclinicaltrials/article/asset?id=%s.PDF",
-  			"xml": "http://www.journals.plos.org/plosclinicaltrials/article/asset?id=%s.XML"
-  		}
-  	}
-  }
+  "journals": [
+    {
+      "journal": "plosone",
+      "issn": "1932-6203",
+      "urls": {
+        "pdf": "http://www.journals.plos.org/plosone/article/asset?id=%s.PDF",
+        "xml": "http://www.journals.plos.org/plosone/article/asset?id=%s.XML"
+      }
+    },
+    {
+      "journal": "plosbiology",
+      "issn": ["1544-9173","1545-7885"],
+      "urls": {
+        "pdf": "http://www.journals.plos.org/plosbiology/article/asset?id=%s.PDF",
+        "xml": "http://www.journals.plos.org/plosbiology/article/asset?id=%s.XML"
+      }
+    },
+    {
+      "journal": "plosmedicine",
+      "issn": ["1549-1277","1549-1676"],
+      "urls": {
+        "pdf": "http://www.journals.plos.org/plosmedicine/article/asset?id=%s.PDF",
+        "xml": "http://www.journals.plos.org/plosmedicine/article/asset?id=%s.XML"
+      }
+    },
+    {
+      "journal": "plosgenetics",
+      "issn": ["1553-7390","1553-7404"],
+      "urls": {
+        "pdf": "http://www.journals.plos.org/plosgenetics/article/asset?id=%s.PDF",
+        "xml": "http://www.journals.plos.org/plosgenetics/article/asset?id=%s.XML"
+      }
+    },
+    {
+      "journal": "ploscompbiol",
+      "issn": ["1553-734X","1553-7358"],
+      "urls": {
+        "pdf": "http://www.journals.plos.org/ploscompbiol/article/asset?id=%s.PDF",
+        "xml": "http://www.journals.plos.org/ploscompbiol/article/asset?id=%s.XML"
+      }
+    },
+    {
+      "journal": "plospathogens",
+      "issn": ["1553-7366","1553-7374"],
+      "urls": {
+        "pdf": "http://www.journals.plos.org/plospathogens/article/asset?id=%s.PDF",
+        "xml": "http://www.journals.plos.org/plospathogens/article/asset?id=%s.XML"
+      }
+    },
+    {
+      "journal": "plosntds",
+      "issn": "1935-2735",
+      "urls": {
+        "pdf": "http://www.journals.plos.org/plosntds/article/asset?id=%s.PDF",
+        "xml": "http://www.journals.plos.org/plosntds/article/asset?id=%s.XML"
+      }
+    },
+    {
+      "journal": "plosclinicaltrials",
+      "issn": "1555-5887",
+      "urls": {
+        "pdf": "http://www.journals.plos.org/plosclinicaltrials/article/asset?id=%s.PDF",
+        "xml": "http://www.journals.plos.org/plosclinicaltrials/article/asset?id=%s.XML"
+      }
+    }
+  ]
 }

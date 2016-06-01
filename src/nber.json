@@ -1,11 +1,16 @@
 {
   "publisher": "nber",
   "crossref_member": 1960,
-  "urls": {
-  	"pdf": "http://www.nber.org/papers/w%s.pdf",
-  	"xml": "http://www.nber.org/papers/w%s.xml"
-  },
   "regex": "[0-9]{5}$",
   "open_access": true,
-  "journals": null
+  "journals": [
+  	{
+  		"journal": "nber",
+  		"issn": null,
+  		"urls": {
+		  	"pdf": "http://www.nber.org/papers/w%s.pdf",
+		  	"xml": "http://www.nber.org/papers/w%s.xml"
+		  }
+		}
+  ]
 }

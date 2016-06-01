@@ -1,11 +1,32 @@
 {
   "publisher": "peerj",
   "crossref_member": 4443,
-  "urls": {
-  	"pdf": "https://peerj.com/articles/%s.pdf",
-  	"xml": "https://peerj.com/articles/%s.xml"
-  },
-  "regex": "[0-9]{5}+$",
+  "regex": "[0-9]+$",
   "open_access": true,
-  "journals": null
+  "journals": [
+  	{
+  		"journal": "peerj",
+  		"issn": "2167-8359",
+  		"urls": {
+		  	"pdf": "https://peerj.com/articles/%s.pdf",
+		  	"xml": "https://peerj.com/articles/%s.xml"
+		  }
+		},
+		{
+			"name": "peerj-computer-science",
+			"issn": "2376-5992",
+  		"urls": {
+		  	"pdf": "https://peerj.com/articles/cs-%s.pdf",
+		  	"xml": "https://peerj.com/articles/cs-%s.xml"
+		  }
+		},
+		{
+			"name": "peerj-preprints",
+			"issn": "2167-9843",
+  		"urls": {
+		  	"pdf": "https://peerj.com/preprints/%s.pdf",
+		  	"xml": "https://peerj.com/preprints/%s.xml"
+		  }
+		}
+  ]
 }
