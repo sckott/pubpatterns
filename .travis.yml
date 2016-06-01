@@ -1,4 +1,6 @@
 language: ruby
+cache: bundler
 rvm:
   - 2.1.8
   - 2.2.4
+install: bundle install fileutils test-unit multi_json faraday rake
