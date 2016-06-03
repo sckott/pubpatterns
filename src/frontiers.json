@@ -1,10 +1,13 @@
 {
   "publisher": "frontiers",
+  "publisher_parent": null,
   "crossref_member": 1965,
+  "prefixes": ["10.3389","10.4175"],
   "urls": {
     "pdf": "http://journal.frontiersin.org/article/%s/pdf",
     "xml": "http://journal.frontiersin.org/article/%s/xml/nlm"
   },
+  "cookies": false,
   "regex": ".+",
   "open_access": true,
   "journals": null

@@ -1,7 +1,10 @@
 {
   "publisher": "pensoft",
+  "publisher_parent": null,
   "crossref_member": 2258,
+  "prefixes": ["10.3897"],
   "urls": null,
+  "cookies": false,
   "regex": "[0-9]+$",
   "open_access": true,
 	"journals": [

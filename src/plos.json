@@ -1,6 +1,10 @@
 {
   "publisher": "plos",
+  "publisher_parent": null,
   "crossref_member": 340,
+  "prefixes": ["10.1371"],
+  "urls": null,
+  "cookies": false,
   "regex": "[0-9]{5}$",
   "open_access": true,
   "journals": [

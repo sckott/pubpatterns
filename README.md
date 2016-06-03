@@ -5,6 +5,11 @@ pubpatterns
 
 Use publisher URL patterns to generate full text links to scholarly articles.
 
+These could be used in a variety of ways:
+
+* If you're interested in a particular publisher, or a journal within a publisher, navigate directly to it.
+* If start with a DOI, then match on DOI prefix to the publisher
+
 ## Spec
 
 [spec.json](spec.json)

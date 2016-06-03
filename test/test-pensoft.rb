@@ -13,7 +13,7 @@ class TestPensoft < Test::Unit::TestCase
   def test_pensoft_keys
     assert_equal(
       @pensoft.keys().sort(),
-      ["crossref_member", "journals", "open_access", "publisher", "regex", "urls"]
+      ["cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
     )
     assert_nil(@pensoft['urls'])
     assert_not_nil(@pensoft['journals'])

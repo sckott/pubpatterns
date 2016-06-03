@@ -13,7 +13,7 @@ class TestPeerj < Test::Unit::TestCase
   def test_peerj_keys
     assert_equal(
       @peerj.keys().sort(),
-      ["crossref_member", "journals", "open_access", "publisher", "regex", "urls"]
+      ["cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
     )
     assert_nil(@peerj['urls'])
     assert_not_nil(@peerj['journals'])

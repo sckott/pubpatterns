@@ -13,7 +13,7 @@ class TestElife < Test::Unit::TestCase
   def test_elife_keys
     assert_equal(
       @elife.keys().sort(),
-      ["crossref_member", "journals", "open_access", "publisher", "regex", "urls"]
+      ["cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
     )
     assert_nil(@elife['urls'])
     assert_not_nil(@elife['journals'])

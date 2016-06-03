@@ -1,0 +1,14 @@
+{
+  "publisher": "cogent",
+  "publisher_parent": "informa",
+  "crossref_member": null,
+  "prefixes": ["10.1080"],
+  "urls": {
+    "pdf": "http://cogentoa.tandfonline.com/doi/pdf/%s",
+    "xml": "http://cogentoa.tandfonline.com/doi/xml/%s"
+  },
+  "cookies": true,
+  "regex": ".+",
+  "open_access": true,
+  "journals": null
+}

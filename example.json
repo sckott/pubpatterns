@@ -1,6 +1,9 @@
 {
   "publisher": "widget publisher",
   "crossref_member": 9999999,
+  "prefixes": ["10.1234","10.1235"],
+  "urls": null,
+  "cookies": false,
   "regex": "[0-9]{5}$",
   "open_access": true,
   "journals": [
