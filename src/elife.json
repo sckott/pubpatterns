@@ -1,6 +1,7 @@
 {
   "publisher": "elife",
   "crossref_member": 4374,
+  "urls": null,
   "regex": "[0-9]{5}$",
   "open_access": true,
   "journals": [

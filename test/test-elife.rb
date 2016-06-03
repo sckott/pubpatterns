@@ -6,18 +6,26 @@ require "faraday"
 class TestElife < Test::Unit::TestCase
 
   def setup
-    @elife_doi = "10.7554/eLife.07404"
+    @doi = "10.7554/eLife.07404"
+    @elife = MultiJson.load(File.open('src/elife.json'))
   end
 
-  def test_elife
-    elife = MultiJson.load(File.open('src/elife.json'))
+  def test_elife_keys
+    assert_equal(
+      @elife.keys().sort(),
+      ["crossref_member", "journals", "open_access", "publisher", "regex", "urls"]
+    )
+    assert_nil(@elife['urls'])
+    assert_not_nil(@elife['journals'])
+  end
 
-    conndoi = Faraday.new(:url => 'http://api.crossref.org/works/%s' % @elife_doi) do |f|
+  def test_elife_xml
+    conndoi = Faraday.new(:url => 'http://api.crossref.org/works/%s' % @doi) do |f|
       f.adapter Faraday.default_adapter
     end
     issn = MultiJson.load(conndoi.get.body)['message']['ISSN'][0]
 
-    conn = Faraday.new(:url => elife['journals'].select { |x| x['issn'] == issn }[0]['urls']['xml'] % @elife_doi.match(elife['regex']).to_s) do |f|
+    conn = Faraday.new(:url => @elife['journals'].select { |x| x['issn'] == issn }[0]['urls']['xml'] % @doi.match(@elife['regex']).to_s) do |f|
       f.adapter Faraday.default_adapter
     end
 

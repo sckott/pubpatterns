@@ -1,0 +1,11 @@
+{
+  "publisher": "frontiers",
+  "crossref_member": 1965,
+  "urls": {
+    "pdf": "http://journal.frontiersin.org/article/%s/pdf",
+    "xml": "http://journal.frontiersin.org/article/%s/xml/nlm"
+  },
+  "regex": ".+",
+  "open_access": true,
+  "journals": null
+}

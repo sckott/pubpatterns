@@ -1,6 +1,7 @@
 {
   "publisher": "peerj",
   "crossref_member": 4443,
+  "urls": null,
   "regex": "[0-9]+$",
   "open_access": true,
   "journals": [

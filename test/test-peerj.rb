@@ -6,21 +6,29 @@ require "faraday"
 class TestPeerj < Test::Unit::TestCase
 
   def setup
-    @peerj_doi = '10.7717/peerj.991'
+    @doi = '10.7717/peerj.991'
+    @peerj = MultiJson.load(File.open('src/peerj.json'))
   end
 
-  def test_peerj
-    peerj = MultiJson.load(File.open('src/peerj.json'))
+  def test_peerj_keys
+    assert_equal(
+      @peerj.keys().sort(),
+      ["crossref_member", "journals", "open_access", "publisher", "regex", "urls"]
+    )
+    assert_nil(@peerj['urls'])
+    assert_not_nil(@peerj['journals'])
+  end
 
-    conndoi = Faraday.new(:url => 'http://api.crossref.org/works/%s' % @peerj_doi) do |f|
+  def test_peerj_xml
+    conndoi = Faraday.new(:url => 'http://api.crossref.org/works/%s' % @doi) do |f|
       f.adapter Faraday.default_adapter
     end
     issn = MultiJson.load(conndoi.get.body)['message']['ISSN'][0]
 
     conn = Faraday.new(
       :url =>
-        peerj['journals'].select { |x| x['issn'] == issn }[0]['urls']['xml'] %
-          @peerj_doi.match(peerj['regex']).to_s) do |f|
+        @peerj['journals'].select { |x| x['issn'] == issn }[0]['urls']['xml'] %
+          @doi.match(@peerj['regex']).to_s) do |f|
       f.adapter Faraday.default_adapter
     end
 
