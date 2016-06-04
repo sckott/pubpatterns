@@ -13,7 +13,7 @@ class TestPensoft < Test::Unit::TestCase
   def test_pensoft_keys
     assert_equal(
       @pensoft.keys().sort(),
-      ["cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
     )
     assert_nil(@pensoft['urls'])
     assert_not_nil(@pensoft['journals'])
@@ -28,7 +28,7 @@ class TestPensoft < Test::Unit::TestCase
     conn = Faraday.new(
       :url =>
         @pensoft['journals'].select { |x| Array(x['issn']).select{ |z| !!z.match(issn) }.any? }[0]['urls']['xml'] %
-          @doi.match(@pensoft['regex']).to_s) do |f|
+          @doi.match(@pensoft['journals'][0]['components']['doi']['regex']).to_s) do |f|
       f.adapter Faraday.default_adapter
     end
 

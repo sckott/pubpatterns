@@ -3,6 +3,7 @@
   "crossref_member": 9999999,
   "prefixes": ["10.1234","10.1235"],
   "urls": null,
+  "components": null,
   "cookies": false,
   "regex": "[0-9]{5}$",
   "open_access": true,
@@ -13,7 +14,13 @@
   		"urls": {
 		  	"pdf": "https://widgets.org/%s.pdf",
 		  	"xml": "https://widgets.org/%s.xml"
-		  }
+		  },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]{5}$"
+        }
+      }
   	}
  	]
 }

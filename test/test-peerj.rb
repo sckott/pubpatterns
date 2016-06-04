@@ -13,7 +13,7 @@ class TestPeerj < Test::Unit::TestCase
   def test_peerj_keys
     assert_equal(
       @peerj.keys().sort(),
-      ["cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
     )
     assert_nil(@peerj['urls'])
     assert_not_nil(@peerj['journals'])
@@ -28,7 +28,7 @@ class TestPeerj < Test::Unit::TestCase
     conn = Faraday.new(
       :url =>
         @peerj['journals'].select { |x| x['issn'] == issn }[0]['urls']['xml'] %
-          @doi.match(@peerj['regex']).to_s) do |f|
+          @doi.match(@peerj['journals'][0]['components']['doi']['regex']).to_s) do |f|
       f.adapter Faraday.default_adapter
     end
 

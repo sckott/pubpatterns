@@ -3,6 +3,7 @@
   "crossref_member": "Crossref member number, to more easily come from and go to Crossref data [integer]",
 	"prefixes": "DOI prefixes, to be able to match against DOIs [array]",
 	"urls": "url patterns, use if one pattern for all journals, or if only one journal, if this is used, journals must be null [hash]",
+  "components": "optional set of components (if journals null) with slots 'html' and 'doi', giving in order bits to go into the url",
 	"cookies": "whether its required to deal with cookies when downloading or not [boolean]",
   "regex": "regex pattern to extract part of DOI if needed to construct a URL [string]",
   "open_access": " [boolean]",

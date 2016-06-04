@@ -7,8 +7,14 @@
     "pdf": "http://journal.frontiersin.org/article/%s/pdf",
     "xml": "http://journal.frontiersin.org/article/%s/xml/nlm"
   },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": ".+"
+    }
+  },
   "cookies": false,
-  "regex": ".+",
+  "regex": null,
   "open_access": true,
   "journals": null
 }

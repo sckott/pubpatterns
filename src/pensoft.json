@@ -4,8 +4,9 @@
   "crossref_member": 2258,
   "prefixes": ["10.3897"],
   "urls": null,
+  "components": null,
   "cookies": false,
-  "regex": "[0-9]+$",
+  "regex": null,
   "open_access": true,
 	"journals": [
   	{
@@ -14,7 +15,13 @@
   		"urls": {
 		  	"pdf": "http://africaninvertebrates.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://africaninvertebrates.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "biodiscovery",
@@ -22,7 +29,13 @@
   		"urls": {
 		  	"pdf": "http://biodiscovery.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://biodiscovery.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "biodiversity-data-journal",
@@ -30,7 +43,13 @@
   		"urls": {
 		  	"pdf": "http://bdj.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://bdj.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "biorisk",
@@ -38,7 +57,13 @@
   		"urls": {
 		  	"pdf": "http://biorisk.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://biorisk.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "cytogenetics",
@@ -46,7 +71,13 @@
   		"urls": {
 		  	"pdf": "http://compcytogen.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://compcytogen.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "deutsche-entomologische-zeitschrift",
@@ -54,7 +85,13 @@
   		"urls": {
 		  	"pdf": "http://dez.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://dez.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "international-journal-of-myriapodology",
@@ -62,7 +99,13 @@
   		"urls": {
 		  	"pdf": "http://ijm.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://ijm.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "italian-botanist",
@@ -70,7 +113,13 @@
   		"urls": {
 		  	"pdf": "http://italianbotanist.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://italianbotanist.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "journal-of-hymenoptera-research",
@@ -78,7 +127,13 @@
   		"urls": {
 		  	"pdf": "http://jhr.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://jhr.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "mycokeys",
@@ -86,7 +141,13 @@
   		"urls": {
 		  	"pdf": "http://mycokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://mycokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "nature-conservation",
@@ -94,7 +155,13 @@
   		"urls": {
 		  	"pdf": "http://natureconservation.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://natureconservation.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "neobiota",
@@ -102,7 +169,13 @@
   		"urls": {
 		  	"pdf": "http://neobiota.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://neobiota.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "nota-lepidopterologic",
@@ -110,7 +183,13 @@
   		"urls": {
 		  	"pdf": "http://nl.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://nl.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "one-ecosystem",
@@ -118,7 +197,13 @@
   		"urls": {
 		  	"pdf": "http://oneecosystem.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://oneecosystem.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "phytokeys",
@@ -126,7 +211,13 @@
   		"urls": {
 		  	"pdf": "http://phytokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://phytokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "rio",
@@ -134,7 +225,13 @@
   		"urls": {
 		  	"pdf": "http://riojournal.com/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s",
 		  	"xml": "http://riojournal.com/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "zookeys",
@@ -142,7 +239,13 @@
   		"urls": {
 		  	"pdf": "http://zookeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://zookeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"journal": "zoosystematics-and-evolution",
@@ -150,7 +253,13 @@
   		"urls": {
 		  	"pdf": "http://zse.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
 		  	"xml": "http://zse.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  }
+		  },
+		  "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		}
   ]
 }

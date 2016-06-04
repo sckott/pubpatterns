@@ -7,8 +7,14 @@
     "pdf": "http://cogentoa.tandfonline.com/doi/pdf/%s",
     "xml": "http://cogentoa.tandfonline.com/doi/xml/%s"
   },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": ".+"
+    }
+  },
   "cookies": true,
-  "regex": ".+",
+  "regex": null,
   "open_access": true,
   "journals": null
 }

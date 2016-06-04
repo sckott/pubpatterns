@@ -4,8 +4,9 @@
   "crossref_member": 4443,
   "prefixes": ["10.7717"],
   "urls": null,
+  "components": null,
   "cookies": false,
-  "regex": "[0-9]+$",
+  "regex": null,
   "open_access": true,
   "journals": [
   	{
@@ -14,7 +15,13 @@
   		"urls": {
 		  	"pdf": "https://peerj.com/articles/%s.pdf",
 		  	"xml": "https://peerj.com/articles/%s.xml"
-		  }
+		  },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"name": "peerj-computer-science",
@@ -22,7 +29,13 @@
   		"urls": {
 		  	"pdf": "https://peerj.com/articles/cs-%s.pdf",
 		  	"xml": "https://peerj.com/articles/cs-%s.xml"
-		  }
+		  },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		},
 		{
 			"name": "peerj-preprints",
@@ -30,7 +43,13 @@
   		"urls": {
 		  	"pdf": "https://peerj.com/preprints/%s.pdf",
 		  	"xml": "https://peerj.com/preprints/%s.xml"
-		  }
+		  },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
 		}
   ]
 }

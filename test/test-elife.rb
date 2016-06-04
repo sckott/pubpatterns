@@ -13,7 +13,7 @@ class TestElife < Test::Unit::TestCase
   def test_elife_keys
     assert_equal(
       @elife.keys().sort(),
-      ["cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
     )
     assert_nil(@elife['urls'])
     assert_not_nil(@elife['journals'])
@@ -25,7 +25,9 @@ class TestElife < Test::Unit::TestCase
     end
     issn = MultiJson.load(conndoi.get.body)['message']['ISSN'][0]
 
-    conn = Faraday.new(:url => @elife['journals'].select { |x| x['issn'] == issn }[0]['urls']['xml'] % @doi.match(@elife['regex']).to_s) do |f|
+    conn = Faraday.new(
+      :url => @elife['journals'].select { |x| x['issn'] == issn }[0]['urls']['xml'] %
+        @doi.match(@elife['journals'][0]['components']['doi']['regex']).to_s) do |f|
       f.adapter Faraday.default_adapter
     end
 

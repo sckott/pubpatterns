@@ -1,0 +1,68 @@
+{
+  "publisher": "aaas",
+  "publisher_parent": null,
+  "crossref_member": 221,
+  "prefixes": ["10.1126"],
+  "urls": null,
+  "components": null,
+  "cookies": false,
+  "regex": null,
+  "open_access": null,
+  "journals": [
+  	{
+  		"journal": "science",
+  		"open_access": false,
+  		"issn": "1095-9203",
+  		"urls": {
+		  	"pdf": "http://science.sciencemag.org/content/%s/%s/%s.full.pdf"
+		  	// "pdf": "http://science.sciencemag.org/content/{volume}/{issue}/{startpage}.full.pdf"
+		  },
+		  "components": {
+			  "html": {
+			  	"volume": {
+			  		"selector": "//meta[@name=\"citation_volume\"]",
+			  		"attribute": "content"
+			  	},
+			  	"issue": {
+			  		"selector": "//meta[@name=\"citation_issue\"]",
+			  		"attribute": "content"
+			  	},
+			  	"startpage": {
+			  		"selector": "//meta[@name=\"citation_firstpage\"]",
+			  		"attribute": "content"
+			  	}
+			  },
+			  "doi": null
+		 	},
+		  "notes": "need volume, issue, start page - get via Crossref content negotiation, retrieve volume, issue and page fields"
+		},
+		{
+			"name": "science-advances",
+			"open_access": false,
+			"issn": "2375-2548",
+  		"urls": {
+		  	"pdf": "http://advances.sciencemag.org/content/advances/%s/%s/e%s.full.pdf"
+		  	// "pdf": "http://advances.sciencemag.org/content/advances/2/5/e1501772.full.pdf"
+		  },
+		  "components": {
+			  "html": {
+			  	"volume": {
+			  		"selector": "//meta[@name=\"citation_volume\"]",
+			  		"attribute": "content"
+			  	},
+			  	"issue": {
+			  		"selector": "//meta[@name=\"citation_issue\"]",
+			  		"attribute": "content"
+			  	}
+			  },
+			  "doi": {
+			  	"regex": "[0-9]+$"
+			  }
+			},
+		  "notes": "need volume, issue, last part of DOI - get via Crossref content negotiation, retrieve volume and issue fields"
+		}
+  ]
+}
+
+// "10.1126/science.aaf6644"
+// "10.1126/sciadv.1501772"

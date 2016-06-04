@@ -1,7 +1,12 @@
 {
   "publisher": "nber",
+  "publisher_parent": null,
   "crossref_member": 1960,
-  "regex": "[0-9]{5}$",
+  "prefixes": ["10.7717"],
+  "urls": null,
+  "components": null,
+  "cookies": false,
+  "regex": null,
   "open_access": true,
   "journals": [
   	{
@@ -10,7 +15,13 @@
   		"urls": {
 		  	"pdf": "http://www.nber.org/papers/w%s.pdf",
 		  	"xml": "http://www.nber.org/papers/w%s.xml"
-		  }
+		  },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]{5}$"
+        }
+      }
 		}
   ]
 }

@@ -13,13 +13,13 @@ class TestFrontiers < Test::Unit::TestCase
   def test_frontiers_keys
     assert_equal(
       @frontiers.keys().sort(),
-      ["cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
     )
     assert_nil(@frontiers['journals'])
   end
 
   def test_frontiers_xml
-    conn = Faraday.new(:url => @frontiers['urls']['xml'] % @doi.match(@frontiers['regex']).to_s) do |f|
+    conn = Faraday.new(:url => @frontiers['urls']['xml'] % @doi.match(@frontiers['components']['doi']['regex']).to_s) do |f|
       f.adapter Faraday.default_adapter
     end
 
