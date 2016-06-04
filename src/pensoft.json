@@ -8,258 +8,258 @@
   "cookies": false,
   "regex": null,
   "open_access": true,
-	"journals": [
-  	{
-  		"journal": "african-invertebrates",
-  		"issn": ["1681-5556","2305-2562"],
-  		"urls": {
-		  	"pdf": "http://africaninvertebrates.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://africaninvertebrates.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+  "journals": [
+    {
+      "journal": "african-invertebrates",
+      "issn": ["1681-5556","2305-2562"],
+      "urls": {
+        "pdf": "http://africaninvertebrates.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://africaninvertebrates.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "biodiscovery",
-			"issn": "2050-2966",
-  		"urls": {
-		  	"pdf": "http://biodiscovery.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://biodiscovery.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "biodiscovery",
+      "issn": "2050-2966",
+      "urls": {
+        "pdf": "http://biodiscovery.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://biodiscovery.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "biodiversity-data-journal",
-			"issn": ["1314-2836","1314-2828"],
-  		"urls": {
-		  	"pdf": "http://bdj.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://bdj.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "biodiversity-data-journal",
+      "issn": ["1314-2836","1314-2828"],
+      "urls": {
+        "pdf": "http://bdj.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://bdj.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "biorisk",
-			"issn": ["1313-2644","1313-2652"],
-  		"urls": {
-		  	"pdf": "http://biorisk.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://biorisk.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "biorisk",
+      "issn": ["1313-2644","1313-2652"],
+      "urls": {
+        "pdf": "http://biorisk.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://biorisk.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "cytogenetics",
-			"issn": "1755-8166",
-  		"urls": {
-		  	"pdf": "http://compcytogen.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://compcytogen.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "cytogenetics",
+      "issn": "1755-8166",
+      "urls": {
+        "pdf": "http://compcytogen.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://compcytogen.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "deutsche-entomologische-zeitschrift",
-			"issn": ["1435-1951","1860-1324"],
-  		"urls": {
-		  	"pdf": "http://dez.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://dez.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "deutsche-entomologische-zeitschrift",
+      "issn": ["1435-1951","1860-1324"],
+      "urls": {
+        "pdf": "http://dez.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://dez.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "international-journal-of-myriapodology",
-			"issn": ["1875-2535","1875-2543"],
-  		"urls": {
-		  	"pdf": "http://ijm.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://ijm.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "international-journal-of-myriapodology",
+      "issn": ["1875-2535","1875-2543"],
+      "urls": {
+        "pdf": "http://ijm.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://ijm.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "italian-botanist",
-			"issn": ["2421-0404","0020-0697"],
-  		"urls": {
-		  	"pdf": "http://italianbotanist.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://italianbotanist.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "italian-botanist",
+      "issn": ["2421-0404","0020-0697"],
+      "urls": {
+        "pdf": "http://italianbotanist.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://italianbotanist.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "journal-of-hymenoptera-research",
-			"issn": ["1070-9428","1314-2607"],
-  		"urls": {
-		  	"pdf": "http://jhr.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://jhr.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "journal-of-hymenoptera-research",
+      "issn": ["1070-9428","1314-2607"],
+      "urls": {
+        "pdf": "http://jhr.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://jhr.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "mycokeys",
-			"issn": ["1314-4057","1314-4049"],
-  		"urls": {
-		  	"pdf": "http://mycokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://mycokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "mycokeys",
+      "issn": ["1314-4057","1314-4049"],
+      "urls": {
+        "pdf": "http://mycokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://mycokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "nature-conservation",
-			"issn": ["1314-6947","1314-3301"],
-  		"urls": {
-		  	"pdf": "http://natureconservation.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://natureconservation.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "nature-conservation",
+      "issn": ["1314-6947","1314-3301"],
+      "urls": {
+        "pdf": "http://natureconservation.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://natureconservation.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "neobiota",
-			"issn": ["1619-0033","1314-2488"],
-  		"urls": {
-		  	"pdf": "http://neobiota.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://neobiota.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "neobiota",
+      "issn": ["1619-0033","1314-2488"],
+      "urls": {
+        "pdf": "http://neobiota.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://neobiota.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "nota-lepidopterologic",
-			"issn": ["0342-7536","2367-5365"],
-  		"urls": {
-		  	"pdf": "http://nl.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://nl.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "nota-lepidopterologic",
+      "issn": ["0342-7536","2367-5365"],
+      "urls": {
+        "pdf": "http://nl.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://nl.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "one-ecosystem",
-			"issn": "2367-8194",
-  		"urls": {
-		  	"pdf": "http://oneecosystem.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://oneecosystem.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "one-ecosystem",
+      "issn": "2367-8194",
+      "urls": {
+        "pdf": "http://oneecosystem.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://oneecosystem.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "phytokeys",
-			"issn": ["1314-2011","1314-2003"],
-  		"urls": {
-		  	"pdf": "http://phytokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://phytokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "phytokeys",
+      "issn": ["1314-2011","1314-2003"],
+      "urls": {
+        "pdf": "http://phytokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://phytokeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "rio",
-			"issn": "2367-7163",
-  		"urls": {
-		  	"pdf": "http://riojournal.com/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s",
-		  	"xml": "http://riojournal.com/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "rio",
+      "issn": "2367-7163",
+      "urls": {
+        "pdf": "http://riojournal.com/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s",
+        "xml": "http://riojournal.com/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "zookeys",
-			"issn": ["1313-2989","1313-2970"],
-  		"urls": {
-		  	"pdf": "http://zookeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://zookeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "zookeys",
+      "issn": ["1313-2989","1313-2970"],
+      "urls": {
+        "pdf": "http://zookeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://zookeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"journal": "zoosystematics-and-evolution",
-			"issn": ["1435-1935","1860-0743"],
-  		"urls": {
-		  	"pdf": "http://zse.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
-		  	"xml": "http://zse.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
-		  },
-		  "components": {
+    },
+    {
+      "journal": "zoosystematics-and-evolution",
+      "issn": ["1435-1935","1860-0743"],
+      "urls": {
+        "pdf": "http://zse.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=%s",
+        "xml": "http://zse.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=%s"
+      },
+      "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		}
+    }
   ]
 }

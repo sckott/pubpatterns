@@ -22,12 +22,12 @@ class TestCogent < Test::Unit::TestCase
 
   # def test_cogent_xml
   #   conn = Faraday.new(:url => @cogent['urls']['xml'] % @doi.match(@cogent['regex']).to_s) do |f|
-  #   	f.use :cookie_jar
+  #     f.use :cookie_jar
   #     f.adapter Faraday.default_adapter
   #   end
 
   #   res = conn.get do |f|
-  #   	f.use :cookie_jar
+  #     f.use :cookie_jar
   #     f.adapter Faraday.default_adapter
   #   end
   #   assert_equal(Faraday::Response, res.class)

@@ -9,19 +9,19 @@
   "regex": null,
   "open_access": true,
   "journals": [
-  	{
-  		"journal": "nber",
-  		"issn": null,
-  		"urls": {
-		  	"pdf": "http://www.nber.org/papers/w%s.pdf",
-		  	"xml": "http://www.nber.org/papers/w%s.xml"
-		  },
+    {
+      "journal": "nber",
+      "issn": null,
+      "urls": {
+        "pdf": "http://www.nber.org/papers/w%s.pdf",
+        "xml": "http://www.nber.org/papers/w%s.xml"
+      },
       "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]{5}$"
         }
       }
-		}
+    }
   ]
 }

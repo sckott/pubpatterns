@@ -9,20 +9,20 @@
   "regex": null,
   "open_access": true,
   "journals": [
-  	{
-  		"journal": "elife",
+    {
+      "journal": "elife",
       "open_access": true,
-  		"issn": "2050-084X",
-  		"urls": {
-		  	"pdf": "https://elifesciences.org/content/4/e%s-download.pdf",
-		  	"xml": "https://raw.githubusercontent.com/elifesciences/elife-articles/master/elife%s.xml"
-		  },
+      "issn": "2050-084X",
+      "urls": {
+        "pdf": "https://elifesciences.org/content/4/e%s-download.pdf",
+        "xml": "https://raw.githubusercontent.com/elifesciences/elife-articles/master/elife%s.xml"
+      },
       "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]{5}$"
         }
       }
-		}
+    }
   ]
 }
