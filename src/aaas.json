@@ -15,7 +15,6 @@
   		"issn": "1095-9203",
   		"urls": {
 		  	"pdf": "http://science.sciencemag.org/content/%s/%s/%s.full.pdf"
-		  	// "pdf": "http://science.sciencemag.org/content/{volume}/{issue}/{startpage}.full.pdf"
 		  },
 		  "components": {
 			  "html": {
@@ -42,7 +41,6 @@
 			"issn": "2375-2548",
   		"urls": {
 		  	"pdf": "http://advances.sciencemag.org/content/advances/%s/%s/e%s.full.pdf"
-		  	// "pdf": "http://advances.sciencemag.org/content/advances/2/5/e1501772.full.pdf"
 		  },
 		  "components": {
 			  "html": {
@@ -60,9 +58,58 @@
 			  }
 			},
 		  "notes": "need volume, issue, last part of DOI - get via Crossref content negotiation, retrieve volume and issue fields"
+		},
+		{
+			"name": "science-translational-medicine",
+			"open_access": false,
+			"issn": "1946-6242",
+  		"urls": {
+		  	"pdf": "http://stm.sciencemag.org/content/advances/%s/%s/e%s.full.pdf"
+		  },
+		  "components": {
+			  "html": {
+			  	"volume": {
+			  		"selector": "//meta[@name=\"citation_volume\"]",
+			  		"attribute": "content"
+			  	},
+			  	"issue": {
+			  		"selector": "//meta[@name=\"citation_issue\"]",
+			  		"attribute": "content"
+			  	},
+			  	"startpage": {
+			  		"selector": "//meta[@name=\"citation_firstpage\"]",
+			  		"attribute": "content"
+			  	}
+			  },
+			  "doi": null
+			},
+		  "notes": "need volume, issue, start page - get via Crossref content negotiation, retrieve volume, issue and page fields"
+		},
+		{
+			"name": "science-signaling",
+			"open_access": false,
+			"issn": "1937-9145",
+  		"urls": {
+		  	"pdf": "http://stke.sciencemag.org/content/advances/%s/%s/e%s.full.pdf"
+		  },
+		  "components": {
+			  "html": {
+			  	"volume": {
+			  		"selector": "//meta[@name=\"citation_volume\"]",
+			  		"attribute": "content"
+			  	},
+			  	"issue": {
+			  		"selector": "//meta[@name=\"citation_issue\"]",
+			  		"attribute": "content"
+			  	},
+			  	"startpage": {
+			  		"selector": "//meta[@name=\"citation_firstpage\"]",
+			  		"attribute": "content"
+			  	}
+			  },
+			  "doi": null
+			},
+		  "notes": "need volume, issue, start page - get via Crossref content negotiation, retrieve volume, issue and page fields"
 		}
   ]
 }
-
-// "10.1126/science.aaf6644"
-// "10.1126/sciadv.1501772"
