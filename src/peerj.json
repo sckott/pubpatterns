@@ -9,47 +9,47 @@
   "regex": null,
   "open_access": true,
   "journals": [
-  	{
-  		"journal": "peerj",
-  		"issn": "2167-8359",
-  		"urls": {
-		  	"pdf": "https://peerj.com/articles/%s.pdf",
-		  	"xml": "https://peerj.com/articles/%s.xml"
-		  },
+    {
+      "journal": "peerj",
+      "issn": "2167-8359",
+      "urls": {
+        "pdf": "https://peerj.com/articles/%s.pdf",
+        "xml": "https://peerj.com/articles/%s.xml"
+      },
       "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"name": "peerj-computer-science",
-			"issn": "2376-5992",
-  		"urls": {
-		  	"pdf": "https://peerj.com/articles/cs-%s.pdf",
-		  	"xml": "https://peerj.com/articles/cs-%s.xml"
-		  },
+    },
+    {
+      "name": "peerj-computer-science",
+      "issn": "2376-5992",
+      "urls": {
+        "pdf": "https://peerj.com/articles/cs-%s.pdf",
+        "xml": "https://peerj.com/articles/cs-%s.xml"
+      },
       "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		},
-		{
-			"name": "peerj-preprints",
-			"issn": "2167-9843",
-  		"urls": {
-		  	"pdf": "https://peerj.com/preprints/%s.pdf",
-		  	"xml": "https://peerj.com/preprints/%s.xml"
-		  },
+    },
+    {
+      "name": "peerj-preprints",
+      "issn": "2167-9843",
+      "urls": {
+        "pdf": "https://peerj.com/preprints/%s.pdf",
+        "xml": "https://peerj.com/preprints/%s.xml"
+      },
       "components": {
         "html": null,
         "doi": {
           "regex": "[0-9]+$"
         }
       }
-		}
+    }
   ]
 }
