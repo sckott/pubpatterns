@@ -7,7 +7,7 @@
   "components": null,
   "cookies": false,
   "regex": null,
-  "open_access": null,
+  "open_access": false,
   "journals": [
     {
       "journal": "science",

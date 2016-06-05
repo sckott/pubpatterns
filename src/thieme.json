@@ -1,0 +1,302 @@
+{
+  "publisher": "thieme",
+  "publisher_parent": null,
+  "crossref_member": 194,
+  "prefixes": ["10.1055"],
+  "urls": null,
+  "components": null,
+  "cookies": false,
+  "regex": null,
+  "open_access": null,
+  "journals": [
+    {
+      "journal": "american-journal-of-perinatology-reports",
+      "open_access": true,
+      "issn": ["2157-6998"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "endoscopy-international-open",
+      "open_access": true,
+      "issn": ["2196-9736", "2364-3722"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "brazilian-neurosurgery:-arquivos-brasileiros-de-neurocirurgia",
+      "open_access": true,
+      "issn": ["0103-5355"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "european-journal-of-pediatric-surgery-reports",
+      "open_access": true,
+      "issn": ["2194-7619"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "experimental-and-clinical-endocrinology-&-diabetes-reports",
+      "open_access": true,
+      "issn": ["2196-7407"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "global-spine-journal",
+      "open_access": true,
+      "issn": ["2192-5682"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "indian-journal-of-neurosurgery",
+      "open_access": true,
+      "issn": ["2277-9167", "2277-954X"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "international-archives-of-otorhinolaryngology",
+      "open_access": true,
+      "issn": ["1809-9777"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "journal-of-brachial-plexus-and-peripheral-nerve-injury",
+      "open_access": true,
+      "issn": ["1749-7221", "1749-7221"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "journal-of-clinical-&-academic-ophthalmology",
+      "open_access": true,
+      "issn": ["2379-0539"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "journal-of-knee-surgery-reports",
+      "open_access": true,
+      "issn": ["2326-2729"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "journal-of-neurological-surgery-reports",
+      "open_access": true,
+      "issn": ["2193-6358"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "journal-of-reconstructive-microsurgery-open",
+      "open_access": true,
+      "issn": ["2377-0813"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "metabolism-and-nutrition-in-oncology",
+      "open_access": true,
+      "issn": ["2194-735X"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "planta-medica-letters",
+      "open_access": true,
+      "issn": ["2199-157X"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "rbgo-gynecology-and-obstetrics-/-revista-brasileira-de-ginecologia-e-obstetrícia",
+      "open_access": true,
+      "issn": ["0100-7203"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "the-surgery-journal",
+      "open_access": true,
+      "issn": ["1937-819X", "1531-2968", "1937-8270", "2160-2204", "2378-5128",
+        "0749-8063", "1531-0914", "1598-3889", "2210-836X", "2001-4430",
+        "1876-5335", "1874-3005", "0301-2859", "2358-2782", "1324-2881",
+        "1037-2091", "1110-1121", "1102-4151", "2211-4599", "1937-8203"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "the-thoracic-and-cardiovascular-surgeon-reports",
+      "open_access": true,
+      "issn": ["2194-7635"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    },
+    {
+      "journal": "ultrasound-international-open",
+      "open_access": true,
+      "issn": ["2199-7152"],
+      "urls": {
+        "pdf": "https://www.thieme-connect.com/products/ejournals/pdf/%s.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": ".+"
+        }
+      },
+      "notes": null
+    }
+
+  ]
+}
