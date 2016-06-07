@@ -1,0 +1,33 @@
+{
+  "publisher": "mdpi",
+  "publisher_parent": null,
+  "crossref_member": 1968,
+  "prefixes": ["10.3390","10.20944"],
+  "urls": {
+    "pdf": "http://www.mdpi.com/%s/%s/%s/%s/pdf",
+    "xml": "http://www.mdpi.com/%s/%s/%s/%s/xml"
+  },
+  "components": {
+    "html": null,
+    "issn": {
+      "url": "http://api.crossref.org/works/%s",
+      "part": ".message.ISSN"
+    },
+    "doi": {
+      "regex": "[0-9]{4}+$"
+    },
+    "notes": "crossref api request (components.issn.url + DOI) to get ISSN"
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": true,
+  "journals": null
+}
+
+// 10.3390/a7010032
+// "http://www.mdpi.com/1999-4893/7/1/32/pdf"
+// "http://www.mdpi.com/1999-4893/7/1/32/xml"
+
+// 10.3390/ani4010082
+// "http://www.mdpi.com/2076-2615/4/1/82/pdf"
+// "http://www.mdpi.com/2076-2615/4/1/82/xml"
