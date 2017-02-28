@@ -23,12 +23,12 @@ class TestAAAS < Test::Unit::TestCase
     conndoi = Faraday.new(:url => 'http://api.crossref.org/works/%s' % @doi) do |f|
       f.adapter Faraday.default_adapter
     end
-    issn = MultiJson.load(conndoi.get.body)['message']['ISSN'][0]
-
+    res = MultiJson.load(conndoi.get.body)['message']
+    issn = res['ISSN'][0]
+    xx = @aaas['journals'].select { |x| Array(x['issn']).select{ |z| !!z.match(issn) }.any? }[0]
     conn = Faraday.new(
-      :url =>
-        @aaas['journals'].select { |x| Array(x['issn']).select{ |z| !!z.match(issn) }.any? }[0]['urls']['xml'] %
-          @doi.match(@aaas['regex']).to_s) do |f|
+      :url => xx['urls']['pdf'] % [res['volume'], res['volume'], @doi.match(xx['components']['doi']['regex'])[0]]
+      ) do |f|
       f.adapter Faraday.default_adapter
     end
 
