@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    Ascii85 (1.0.2)
+    afm (0.2.2)
     ansi (1.5.0)
     ast (2.3.0)
     domain_name (0.5.20170223)
@@ -12,6 +14,7 @@ GEM
       http-cookie (~> 1.0.0)
     faraday_middleware (0.11.0.1)
       faraday (>= 0.7.4, < 1.0)
+    hashery (2.1.2)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     multi_json (1.12.1)
@@ -19,13 +22,21 @@ GEM
     oga (2.9)
       ast
       ruby-ll (~> 2.1)
+    pdf-reader (2.0.0)
+      Ascii85 (~> 1.0.0)
+      afm (~> 0.2.1)
+      hashery (~> 2.0)
+      ruby-rc4
+      ttfunk
     power_assert (1.0.1)
     rake (11.3.0)
     ruby-ll (2.1.2)
       ansi
       ast
+    ruby-rc4 (0.1.5)
     test-unit (3.2.3)
       power_assert
+    ttfunk (1.5.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
@@ -40,6 +51,7 @@ DEPENDENCIES
   faraday_middleware (~> 0.11.0.1)
   multi_json (~> 1.12, >= 1.12.1)
   oga (~> 2.9)
+  pdf-reader (~> 2.0)
   rake (~> 11.1, >= 11.1.2)
   test-unit (~> 3.2, >= 3.2.3)
   uuidtools (~> 2.1, >= 2.1.5)
