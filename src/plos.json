@@ -13,8 +13,8 @@
       "journal": "plosone",
       "issn": "1932-6203",
       "urls": {
-        "pdf": "http://www.journals.plos.org/plosone/article/asset?id=%s.PDF",
-        "xml": "http://www.journals.plos.org/plosone/article/asset?id=%s.XML"
+        "pdf": "http://www.journals.plos.org/plosone/article/asset?id=%s&type=printable",
+        "xml": "http://www.journals.plos.org/plosone/article/asset?id=%s&type=manuscript"
       },
       "components": {
         "html": null,
@@ -27,8 +27,8 @@
       "journal": "plosbiology",
       "issn": ["1544-9173","1545-7885"],
       "urls": {
-        "pdf": "http://www.journals.plos.org/plosbiology/article/asset?id=%s.PDF",
-        "xml": "http://www.journals.plos.org/plosbiology/article/asset?id=%s.XML"
+        "pdf": "http://www.journals.plos.org/plosbiology/article/asset?id=%s&type=printable",
+        "xml": "http://www.journals.plos.org/plosbiology/article/asset?id=%s&type=manuscript"
       },
       "components": {
         "html": null,
@@ -41,8 +41,8 @@
       "journal": "plosmedicine",
       "issn": ["1549-1277","1549-1676"],
       "urls": {
-        "pdf": "http://www.journals.plos.org/plosmedicine/article/asset?id=%s.PDF",
-        "xml": "http://www.journals.plos.org/plosmedicine/article/asset?id=%s.XML"
+        "pdf": "http://www.journals.plos.org/plosmedicine/article/asset?id=%s&type=printable",
+        "xml": "http://www.journals.plos.org/plosmedicine/article/asset?id=%s&type=manuscript"
       },
       "components": {
         "html": null,
@@ -55,13 +55,14 @@
       "journal": "plosgenetics",
       "issn": ["1553-7390","1553-7404"],
       "urls": {
-        "pdf": "http://www.journals.plos.org/plosgenetics/article/asset?id=%s.PDF",
-        "xml": "http://www.journals.plos.org/plosgenetics/article/asset?id=%s.XML"
+        "pdf": "http://www.journals.plos.org/plosgenetics/article/asset?id=%s&type=printable",
+        "xml": "http://www.journals.plos.org/plosgenetics/article/asset?id=%s&type=manuscript"
       },
       "components": {
         "html": null,
         "doi": {
-          "regex": "[0-9]{5}$"
+          "regex": ".+"
+          // "regex": "[0-9]{5}$"
         }
       }
     },
@@ -69,8 +70,8 @@
       "journal": "ploscompbiol",
       "issn": ["1553-734X","1553-7358"],
       "urls": {
-        "pdf": "http://www.journals.plos.org/ploscompbiol/article/asset?id=%s.PDF",
-        "xml": "http://www.journals.plos.org/ploscompbiol/article/asset?id=%s.XML"
+        "pdf": "http://www.journals.plos.org/ploscompbiol/article/asset?id=%s&type=printable",
+        "xml": "http://www.journals.plos.org/ploscompbiol/article/asset?id=%s&type=manuscript"
       },
       "components": {
         "html": null,
@@ -83,8 +84,8 @@
       "journal": "plospathogens",
       "issn": ["1553-7366","1553-7374"],
       "urls": {
-        "pdf": "http://www.journals.plos.org/plospathogens/article/asset?id=%s.PDF",
-        "xml": "http://www.journals.plos.org/plospathogens/article/asset?id=%s.XML"
+        "pdf": "http://www.journals.plos.org/plospathogens/article/asset?id=%s&type=printable",
+        "xml": "http://www.journals.plos.org/plospathogens/article/asset?id=%s&type=manuscript"
       },
       "components": {
         "html": null,
@@ -97,8 +98,8 @@
       "journal": "plosntds",
       "issn": "1935-2735",
       "urls": {
-        "pdf": "http://www.journals.plos.org/plosntds/article/asset?id=%s.PDF",
-        "xml": "http://www.journals.plos.org/plosntds/article/asset?id=%s.XML"
+        "pdf": "http://www.journals.plos.org/plosntds/article/asset?id=%s&type=printable",
+        "xml": "http://www.journals.plos.org/plosntds/article/asset?id=%s&type=manuscript"
       },
       "components": {
         "html": null,
@@ -111,8 +112,8 @@
       "journal": "plosclinicaltrials",
       "issn": "1555-5887",
       "urls": {
-        "pdf": "http://www.journals.plos.org/plosclinicaltrials/article/asset?id=%s.PDF",
-        "xml": "http://www.journals.plos.org/plosclinicaltrials/article/asset?id=%s.XML"
+        "pdf": "http://www.journals.plos.org/plosclinicaltrials/article/asset?id=%s&type=printable",
+        "xml": "http://www.journals.plos.org/plosclinicaltrials/article/asset?id=%s&type=manuscript"
       },
       "components": {
         "html": null,

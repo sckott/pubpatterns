@@ -4,8 +4,7 @@
   "crossref_member": null,
   "prefixes": ["10.1080"],
   "urls": {
-    "pdf": "http://cogentoa.tandfonline.com/doi/pdf/%s",
-    "xml": "http://cogentoa.tandfonline.com/doi/xml/%s"
+    "pdf": "https://www.cogentoa.com/article/%s.pdf"
   },
   "components": {
     "html": null,

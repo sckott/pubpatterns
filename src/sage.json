@@ -1,0 +1,57 @@
+{
+  "publisher": "sage",
+  "publisher_parent": null,
+  "crossref_member": 179,
+  "prefixes": [
+    "10.3317",
+    "10.7182",
+    "10.3821",
+    "10.1630",
+    "10.1622",
+    "10.2968",
+    "10.1258",
+    "10.1243",
+    "10.1191",
+    "10.1177",
+    "10.1106",
+    "10.2511",
+    "10.1369",
+    "10.1354",
+    "10.1345",
+    "10.17322",
+    "10.5034",
+    "10.5126",
+    "10.5193",
+    "10.4135",
+    "10.2182",
+    "10.4219",
+    "10.5367"
+  ],
+  "urls": {
+    "pdf": "%s"
+  },
+  "components": {
+    "html": {
+      "pdf_url": {
+        "selector": "//meta[@name=\"citation_pdf_url\"]",
+        "attribute": "content"
+      }
+    },
+    "doi": null,
+    "notes": "get citation_pdf_url from source"
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": null,
+  "journals": null
+}
+
+// 10.1177/2374289516643541
+// http://apc.sagepub.com/content/3/2374289516643541.full.pdf
+
+// 10.1177/2053951716631130
+// http://bds.sagepub.com/content/3/1/2053951716631130.full.pdf
+
+// 10.1177/205510291665239
+// http://hpo.sagepub.com/content/3/1/2055102916652390.full.pdf
+

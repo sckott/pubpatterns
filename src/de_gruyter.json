@@ -1,0 +1,30 @@
+{
+  "publisher": "de-gruyter",
+  "publisher_parent": null,
+  "crossref_member": [374, 1316],
+  "prefixes": [
+		"10.1515",
+		"10.1524",
+		"10.3884",
+		"10.2478",
+		"10.2202",
+		"10.2478"
+	],
+  "urls": {
+    "pdf": "https://www.degruyter.com/downloadpdf/j/%s.%s.%s.%s/%s/%s.pdf"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": "(?<=\\/).+"
+    }
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": "some",
+  "journals": null
+}
+
+// "10.1515/bj-2015-0021"       "https://www.degruyter.com/downloadpdf/j/bj.2015.13.issue-2/bj-2015-0021/bj-2015-0021.pdf"
+// "10.1515/contagri-2016-0010" "https://www.degruyter.com/downloadpdf/j/contagri.2016.65.issue-3-4/contagri-2016-0010/contagri-2016-0010.pdf"
+// "10.1515/jim-2016-0069"      "https://www.degruyter.com/downloadpdf/j/jim.2016.1.issue-3/jim-2016-0069/jim-2016-0069.pdf"

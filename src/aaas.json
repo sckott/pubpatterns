@@ -37,7 +37,7 @@
     },
     {
       "name": "science-advances",
-      "open_access": false,
+      "open_access": true,
       "issn": "2375-2548",
       "urls": {
         "pdf": "http://advances.sciencemag.org/content/advances/%s/%s/e%s.full.pdf"
@@ -54,7 +54,7 @@
           }
         },
         "doi": {
-          "regex": "[0-9]+$"
+          "regex": "(?<=sciadv\\.).+"
         }
       },
       "notes": "need volume, issue, last part of DOI - get via Crossref content negotiation, retrieve volume and issue fields"

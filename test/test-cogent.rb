@@ -1,4 +1,3 @@
-require "fileutils"
 require "test/unit"
 require "multi_json"
 require "faraday"

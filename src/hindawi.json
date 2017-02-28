@@ -1,0 +1,30 @@
+{
+  "publisher": "hindawi",
+  "publisher_parent": null,
+  "crossref_member": 98,
+  "prefixes": [
+    "10.6064",
+    "10.7217",
+    "10.7167",
+    "10.3814",
+    "10.4061",
+    "10.1155",
+    "10.1100",
+    "10.5402"
+  ],
+  "urls": {
+    "pdf": "http://downloads.hindawi.com/journals/%s/%s.pdf",
+    "xml": "http://downloads.hindawi.com/journals/%s/%s.xml"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": "(?<=\\/).+"
+    }
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": true,
+  "journals": null,
+  "notes": "need to get a acronym for the journal e.g., from a crossref API request, then remove DOI prefix from the DOI, and add those together"
+}

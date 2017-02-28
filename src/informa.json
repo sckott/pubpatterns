@@ -42,7 +42,12 @@
     "xml": "http://cogentoa.tandfonline.com/doi/xml/%s"
   },
   "cookies": true,
-  "regex": ".+",
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": ".+"
+    }
+  },
   "open_access": true,
   "journals": null
 }

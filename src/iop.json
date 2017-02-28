@@ -1,0 +1,22 @@
+{
+  "publisher": "iop",
+  "publisher_parent": null,
+  "crossref_member": 266,
+  "prefixes": [
+    "10.1209",
+    "10.1088"
+  ],
+  "urls": {
+    "pdf": "http://iopscience.iop.org/article/%s/pdf"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": ".+"
+    }
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": "some",
+  "journals": null
+}

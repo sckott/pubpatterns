@@ -6,7 +6,7 @@
   "components": "optional set of components (if journals null) with slots 'html' and 'doi', giving in order bits to go into the url  - if the html slot is not null, get html via https://doi.org/{doi}, then extract as specified with xpath",
   "cookies": "whether its required to deal with cookies when downloading or not [boolean]",
   "regex": "regex pattern to extract part of DOI if needed to construct a URL [string]",
-  "open_access": " [boolean]",
+  "open_access": "true, false, some [string]",
   "journals": "0 or more for each journal within a publisher, with each having keys 'urls', 'regex', 'open_access' [array]",
   "notes": "any notes [string]",
   "journals": "with keys journal, issn, open_access, urls, and components, where urls are one or more of xml, pdf, html, or other [array of hashes]",
