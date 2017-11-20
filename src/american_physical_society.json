@@ -1,0 +1,22 @@
+{
+  "publisher": "american_physical_society",
+  "publisher_parent": null,
+  "crossref_member": 16,
+  "prefixes": [
+    "10.1103"
+  ],
+  "urls": {
+    "pdf": "http://harvest.aps.org/v2/journals/articles/%s/fulltext"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": "[0-9]{5}$"
+    }
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": false,
+  "journals": null,
+  "notes": null
+}

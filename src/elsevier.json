@@ -1,0 +1,47 @@
+{
+  "publisher": "elsevier",
+  "publisher_parent": null,
+  "crossref_member": 78,
+  "prefixes": [
+    "10.7424",
+    "10.14219",
+    "10.7811",
+    "10.1580",
+    "10.1533",
+    "10.1529",
+    "10.3816",
+    "10.1602",
+    "10.3921",
+    "10.1240",
+    "10.1205",
+    "10.4065",
+    "10.1197",
+    "10.1157",
+    "10.1383",
+    "10.1367",
+    "10.2353",
+    "10.2111",
+    "10.2139",
+    "10.1006",
+    "10.1016",
+    "10.1054",
+    "10.1053",
+    "10.1067",
+    "10.1078",
+    "10.3182"
+  ],
+  "urls": {
+    "xml": "http://api.elsevier.com/content/article/PII:%s?httpAccept=text/xml",
+    "plain": "http://api.elsevier.com/content/article/PII:%s?httpAccept=text/plain"
+  },
+  "components": {
+    "html": null,
+    "doi": null,
+    "id": "get `alternative-id` from Crossref API"
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": false,
+  "journals": null,
+  "notes": "need a different internal ID - get `alternative-id` from Crossref API"
+}

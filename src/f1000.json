@@ -1,0 +1,31 @@
+{
+  "publisher": "f1000",
+  "publisher_parent": null,
+  "crossref_member": 4950,
+  "prefixes": ["10.12688"],
+  "urls": null,
+  "components": null,
+  "cookies": false,
+  "regex": null,
+  "open_access": true,
+  "journals": [
+    {
+      "journal": "f1000",
+      "open_access": true,
+      "issn": "2050-084X",
+      "urls": {
+        "pdf": "https://f1000research.com/articles/6-221/v2/pdf",
+        "xml": "https://f1000research.com/articles/6-221/v2/xml"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]{5}$"
+        }
+      }
+    }
+  ]
+}
+
+// e.g.
+// 10.12688/f1000research.10554.2

@@ -1,0 +1,23 @@
+{
+  "publisher": "pleiades",
+  "publisher_parent": null,
+  "crossref_member": 137,
+  "prefixes": [
+    "10.1108",
+		"10.5042"
+  ],
+  "urls": {
+    "pdf": "https://link.springer.com/content/pdf/%s"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": ".+"
+    }
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": false,
+  "journals": null,
+  "notes": "follow redirects so that using a single URL pattern will work for new and old URLs"
+}

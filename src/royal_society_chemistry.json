@@ -1,0 +1,22 @@
+{
+  "publisher": "royal_society_chemistry",
+  "publisher_parent": null,
+  "crossref_member": 292,
+  "prefixes": [
+    "10.1039"
+  ],
+  "urls": {
+    "pdf": "http://pubs.rsc.org/en/content/articlepdf/%s/JA/%s"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": "[0-9]{5}$"
+    }
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": false,
+  "journals": null,
+  "notes": null
+}

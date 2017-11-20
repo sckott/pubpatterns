@@ -1,0 +1,24 @@
+{
+  "publisher": "ssrn",
+  "publisher_parent": "elsevier",
+  "publisher_member": 78,
+  "crossref_member": null,
+  "prefixes": ["10.2139"],
+  "urls": {
+    "pdf": "https://papers.ssrn.com/sol3/%s"
+  },
+  "components": {
+    "html": null,
+    "pdf" : {
+      "selector": "//a[@id=\"downloadPdf\"]",
+      "attribute": "href"
+    },
+    "doi": {
+      "regex": ".+"
+    }
+  },
+  "cookies": true,
+  "regex": null,
+  "open_access": true,
+  "journals": null
+}

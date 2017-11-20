@@ -1,0 +1,22 @@
+{
+  "publisher": "karger",
+  "publisher_parent": null,
+  "crossref_member": 127,
+  "prefixes": [
+    "10.1159"
+  ],
+  "urls": {
+    "pdf": "https://www.karger.com/Article/Pdf/%s"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": "[0-9]{5}$"
+    }
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": true,
+  "journals": null,
+  "notes": null
+}

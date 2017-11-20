@@ -1,0 +1,22 @@
+{
+  "publisher": "trans-tech-publications",
+  "publisher_parent": null,
+  "crossref_member": 2457,
+  "prefixes": [
+    "10.4028"
+  ],
+  "urls": {
+    "pdf": "http://%s.pdf"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": "www.scientific.net.+"
+    }
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": true,
+  "journals": null,
+  "notes": null
+}

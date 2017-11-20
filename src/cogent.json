@@ -1,6 +1,7 @@
 {
   "publisher": "cogent",
   "publisher_parent": "informa",
+  "publisher_member": 301,
   "crossref_member": null,
   "prefixes": ["10.1080"],
   "urls": {

@@ -1,0 +1,24 @@
+{
+  "publisher": "emerald",
+  "publisher_parent": null,
+  "crossref_member": 140,
+  "prefixes": [
+    "10.1108",
+		"10.5042"
+  ],
+  "urls": {
+  	"html": "http://www.emeraldinsight.com/doi/full/%s",
+    "pdf": "http://www.emeraldinsight.com/doi/pdfplus/%s"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": ".+"
+    }
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": false,
+  "journals": null,
+  "notes": "Crossref link gives URL for html, but in pubpatternsapi just construct by hand"
+}
