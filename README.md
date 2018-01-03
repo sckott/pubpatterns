@@ -22,6 +22,11 @@ These could be used in a variety of ways:
 
 All `.json` files are in the [src/](src/) directory.
 
+## Example patterns
+
+* Instituto de Investigaciones Filologicas (<spec/iif.json>): can get full URL from Crossref metadata, but need to replace `/view/` with `/download/` - requires a HTTP request to Crossref API, then a regex sub
+* ... more to come
+
 ## Test suite
 
 Tests are in [test/](test/) - will be run on Travis-CI on each change in this repo.

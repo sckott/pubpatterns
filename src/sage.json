@@ -28,19 +28,16 @@
     "10.5367"
   ],
   "urls": {
-    "pdf": "%s"
+    "pdf": "http://journals.sagepub.com/doi/pdf/%s"
   },
   "components": {
-    "html": {
-      "pdf_url": {
-        "selector": "//meta[@name=\"citation_pdf_url\"]",
-        "attribute": "content"
-      }
+    "html": null,
+    "doi": {
+      "regex": ".+"
     },
-    "doi": null,
-    "notes": "get citation_pdf_url from source"
+    "notes": "combine URL and DOI"
   },
-  "cookies": false,
+  "cookies": true,
   "regex": null,
   "open_access": null,
   "journals": null

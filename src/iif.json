@@ -1,0 +1,21 @@
+{
+  "publisher": "instituto_de_investigaciones_filologicas",
+  "publisher_parent": null,
+  "crossref_member": 8215,
+  "prefixes": ["10.19130"],
+  "urls": {
+    "pdf": "%s"
+  },
+  "components": {
+    "html": null,
+    "issn": null,
+    "doi": {
+      "regex": "[0-9]{4}+$"
+    },
+    "notes": "crossref api request to get full URL, then replace `view` with `download`"
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": false,
+  "journals": null
+}
