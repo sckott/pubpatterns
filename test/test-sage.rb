@@ -49,15 +49,13 @@ class TestSage < Test::Unit::TestCase
     assert_equal(String, res.body.class)
   end
 
-  def test_sage_cookies
-    conn = Faraday.new(:url => 'https://doi.org/%s' % doi) do |f|
-      f.use :cookie_jar
-      f.use FaradayMiddleware::FollowRedirects
-      f.adapter Faraday.default_adapter
-    end
-
-    res = conn.get
-    
-  end
+  # def test_sage_cookies
+  #   conn = Faraday.new(:url => 'https://doi.org/%s' % doi) do |f|
+  #     f.use :cookie_jar
+  #     f.use FaradayMiddleware::FollowRedirects
+  #     f.adapter Faraday.default_adapter
+  #   end
+  #   res = conn.get
+  # end
 
 end

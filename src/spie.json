@@ -1,0 +1,21 @@
+{
+  "publisher": "spie",
+  "publisher_parent": null,
+  "crossref_member": 189,
+  "prefixes": ["10.1117"],
+  "urls": {
+    "pdf": "https://www.spiedigitallibrary.org/journalIssue/Download?fullDOI=%s"
+  },
+  "components": {
+    "html": null,
+    "issn": null,
+    "doi": {
+      "regex": ".+"
+    },
+    "notes": null
+  },
+  "cookies": true,
+  "regex": null,
+  "open_access": false,
+  "journals": null
+}
