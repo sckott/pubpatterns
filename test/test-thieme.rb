@@ -39,10 +39,10 @@ class TestThieme < Test::Unit::TestCase
       f.adapter Faraday.default_adapter
     end
 
-    res = conn.get
+    res = conn.get;
     assert_equal(Faraday::Response, res.class)
     assert_equal(String, res.body.class)
-    assert_equal("application/pdf;charset=utf-8", res.headers['content-type'])
+    assert_equal("application/pdf;charset=UTF-8", res.headers['content-type'])
   end
 
   def test_thieme_pdf_2
@@ -61,7 +61,7 @@ class TestThieme < Test::Unit::TestCase
     res = conn.get
     assert_equal(Faraday::Response, res.class)
     assert_equal(String, res.body.class)
-    assert_equal("application/pdf;charset=utf-8", res.headers['content-type'])
+    assert_equal("application/pdf;charset=UTF-8", res.headers['content-type'])
   end
 
   def test_thieme_pdf_3
@@ -80,7 +80,7 @@ class TestThieme < Test::Unit::TestCase
     res = conn.get
     assert_equal(Faraday::Response, res.class)
     assert_equal(String, res.body.class)
-    assert_equal("application/pdf;charset=utf-8", res.headers['content-type'])
+    assert_equal("application/pdf;charset=UTF-8", res.headers['content-type'])
   end
 
 end
