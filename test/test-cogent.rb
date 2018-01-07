@@ -13,7 +13,7 @@ class TestCogent < Test::Unit::TestCase
   def test_cogent_keys
     assert_equal(
       @cogent.keys().sort(),
-      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_member", "publisher_parent", "regex", "urls"]
     )
     assert_not_nil(@cogent['urls'])
     assert_nil(@cogent['journals'])
