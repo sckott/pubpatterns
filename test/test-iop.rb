@@ -22,80 +22,80 @@ class TestIop < Test::Unit::TestCase
     assert_nil(@iop['journals'])
   end
 
-  def test_iop_pdf_1
-    url = @iop['urls']['pdf'] % @doi1.match(@iop['components']['doi']['regex'])[0]
+  # def test_iop_pdf_1
+  #   url = @iop['urls']['pdf'] % @doi1.match(@iop['components']['doi']['regex'])[0]
 
-    conn = Faraday.new(:url => url) do |f|
-      f.adapter Faraday.default_adapter
-    end
+  #   conn = Faraday.new(:url => url) do |f|
+  #     f.adapter Faraday.default_adapter
+  #   end
 
-    res = conn.get
+  #   res = conn.get
 
-    assert_equal(Faraday::Response, res.class)
-    assert_equal(String, res.body.class)
-    assert_equal("application/pdf", res.headers['content-type'])
+  #   assert_equal(Faraday::Response, res.class)
+  #   assert_equal(String, res.body.class)
+  #   assert_equal("application/pdf", res.headers['content-type'])
 
-    path = make_path("pdf")
-    f = File.new(path, "wb")
-    f.write(res.body)
-    f.close()
-    rr = PDF::Reader.new(path)
+  #   path = make_path("pdf")
+  #   f = File.new(path, "wb")
+  #   f.write(res.body)
+  #   f.close()
+  #   rr = PDF::Reader.new(path)
 
-    assert_equal(PDF::Reader, rr.class)
-    assert_equal(6, rr.page_count)
-    xx = rr.page 1
-    assert_equal(String, xx.text.class)
-  end
+  #   assert_equal(PDF::Reader, rr.class)
+  #   assert_equal(6, rr.page_count)
+  #   xx = rr.page 1
+  #   assert_equal(String, xx.text.class)
+  # end
 
-  def test_iop_pdf_2
-    url = @iop['urls']['pdf'] % @doi2.match(@iop['components']['doi']['regex'])[0]
+  # def test_iop_pdf_2
+  #   url = @iop['urls']['pdf'] % @doi2.match(@iop['components']['doi']['regex'])[0]
 
-    conn = Faraday.new(:url => url) do |f|
-      f.adapter Faraday.default_adapter
-    end
+  #   conn = Faraday.new(:url => url) do |f|
+  #     f.adapter Faraday.default_adapter
+  #   end
 
-    res = conn.get
+  #   res = conn.get
 
-    assert_equal(Faraday::Response, res.class)
-    assert_equal(String, res.body.class)
-    assert_equal("application/pdf", res.headers['content-type'])
+  #   assert_equal(Faraday::Response, res.class)
+  #   assert_equal(String, res.body.class)
+  #   assert_equal("application/pdf", res.headers['content-type'])
 
-    path = make_path("pdf")
-    f = File.new(path, "wb")
-    f.write(res.body)
-    f.close()
-    rr = PDF::Reader.new(path)
+  #   path = make_path("pdf")
+  #   f = File.new(path, "wb")
+  #   f.write(res.body)
+  #   f.close()
+  #   rr = PDF::Reader.new(path)
 
-    assert_equal(PDF::Reader, rr.class)
-    assert_equal(13, rr.page_count)
-    xx = rr.page 1
-    assert_equal(String, xx.text.class)
-  end
+  #   assert_equal(PDF::Reader, rr.class)
+  #   assert_equal(13, rr.page_count)
+  #   xx = rr.page 1
+  #   assert_equal(String, xx.text.class)
+  # end
 
-  def test_iop_pdf_3
-    url = @iop['urls']['pdf'] % @doi3.match(@iop['components']['doi']['regex'])[0]
+  # def test_iop_pdf_3
+  #   url = @iop['urls']['pdf'] % @doi3.match(@iop['components']['doi']['regex'])[0]
 
-    conn = Faraday.new(:url => url) do |f|
-      f.adapter Faraday.default_adapter
-    end
+  #   conn = Faraday.new(:url => url) do |f|
+  #     f.adapter Faraday.default_adapter
+  #   end
 
-    res = conn.get
+  #   res = conn.get
 
-    assert_equal(Faraday::Response, res.class)
-    assert_equal(String, res.body.class)
-    assert_equal("application/pdf", res.headers['content-type'])
+  #   assert_equal(Faraday::Response, res.class)
+  #   assert_equal(String, res.body.class)
+  #   assert_equal("application/pdf", res.headers['content-type'])
 
-    path = make_path("pdf")
-    f = File.new(path, "wb")
-    f.write(res.body)
-    f.close()
-    rr = PDF::Reader.new(path)
+  #   path = make_path("pdf")
+  #   f = File.new(path, "wb")
+  #   f.write(res.body)
+  #   f.close()
+  #   rr = PDF::Reader.new(path)
 
-    assert_equal(PDF::Reader, rr.class)
-    assert_equal(13, rr.page_count)
-    xx = rr.page 1
-    assert_equal(String, xx.text.class)
-  end
+  #   assert_equal(PDF::Reader, rr.class)
+  #   assert_equal(13, rr.page_count)
+  #   xx = rr.page 1
+  #   assert_equal(String, xx.text.class)
+  # end
 
 
 end
