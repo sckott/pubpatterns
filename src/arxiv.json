@@ -1,0 +1,21 @@
+{
+  "publisher": "arxiv",
+  "publisher_parent": null,
+  "crossref_member": null,
+  "prefixes": null,
+  "urls": {
+    "pdf": "https://arxiv.org/pdf/%s"
+  },
+  "components": {
+    "html": null,
+    "issn": null,
+    "doi": {
+      "regex": ".+"
+    },
+    "notes": null
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": true,
+  "journals": null
+}
