@@ -1,0 +1,27 @@
+{
+  "publisher": "cold_spring_harbor_laboratory",
+  "publisher_parent": null,
+  "crossref_member": 246,
+  "prefixes": [
+    "10.1261",
+    "10.1101",
+    "10.26508",
+    "10.14224"
+  ],
+  "urls": {
+    "pdf": "https://www.biorxiv.org/content/early/%s/%s/%s/%s.full.pdf"
+  },
+  "components": {
+    "html": null,
+    "issn": null,
+    "doi": {
+      "regex": "[0-9]+$"
+    },
+    "notes": "need year, month, day from 'posted' in Crossref API"
+  },
+  "cookies": false,
+  "regex": null,
+  "open_access": true,
+  "journals": null
+}
+
