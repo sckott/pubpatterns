@@ -38,6 +38,3 @@ class TestPensoft < Test::Unit::TestCase
   end
 
 end
-
-# http://zookeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=9630
-# http://zookeys.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=6223
