@@ -14,6 +14,7 @@
       "regex": "www.scientific.net.+"
     }
   },
+  "use_crossref_links": false,
   "cookies": false,
   "regex": null,
   "open_access": true,

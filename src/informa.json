@@ -41,6 +41,7 @@
     "pdf": "http://cogentoa.tandfonline.com/doi/pdf/%s",
     "xml": "http://cogentoa.tandfonline.com/doi/xml/%s"
   },
+  "use_crossref_links": false,
   "cookies": true,
   "components": {
     "html": null,

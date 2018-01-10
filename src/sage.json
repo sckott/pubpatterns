@@ -37,6 +37,7 @@
     },
     "notes": "combine URL and DOI"
   },
+  "use_crossref_links": false,
   "cookies": true,
   "regex": null,
   "open_access": null,

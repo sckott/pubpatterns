@@ -19,6 +19,7 @@
     },
     "notes": "need year, month, day from 'posted' in Crossref API"
   },
+  "use_crossref_links": false,
   "cookies": false,
   "regex": null,
   "open_access": true,

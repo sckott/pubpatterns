@@ -11,6 +11,7 @@
   "cookies": false,
   "regex": null,
   "open_access": true,
+  "use_crossref_links": false,
   "journals": [
     {
       "journal": "african-invertebrates",

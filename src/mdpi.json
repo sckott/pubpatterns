@@ -18,6 +18,7 @@
     },
     "notes": "crossref api request (components.issn.url + DOI) to get ISSN"
   },
+  "use_crossref_links": false,
   "cookies": false,
   "regex": null,
   "open_access": true,
