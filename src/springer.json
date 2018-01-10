@@ -1,0 +1,44 @@
+{
+  "publisher": "springer",
+  "publisher_parent": null,
+  "crossref_member": 297,
+  "prefixes": [ 
+      "10.1245",
+      "10.1251",
+      "10.1114",
+      "10.26778",
+      "10.26777",
+      "10.3758",
+      "10.1186",
+      "10.1140",
+      "10.7603",
+      "10.1361",
+      "10.1379",
+      "10.1381",
+      "10.1385",
+      "10.2165",
+      "10.1007",
+      "10.1065",
+      "10.1023",
+      "10.4333",
+      "10.5822",
+      "10.5819",
+      "10.1617",
+      "10.5052",
+      "10.4056"
+  ],
+  "urls": {
+    "pdf": "https://link.springer.com/content/pdf/%s.pdf"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": ".+"
+    },
+    "notes": "pop the DOI into the pdf string; crossref links don't work"
+  },
+  "use_crossref_links": false,
+  "cookies": false,
+  "open_access": false,
+  "journals": null
+}
