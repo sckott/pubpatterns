@@ -1,0 +1,18 @@
+{
+  "publisher": "pnas",
+  "publisher_parent": null,
+  "crossref_member": 341,
+  "prefixes": [ "10.1073" ],
+  "urls": {
+    "pdf": "http://www.pnas.org/content/115/2/237.full.pdf"
+  },
+  "components": {
+    "html": null,
+    "doi": null,
+    "notes": "don't need DOI other than to get metadata; volume number + issue number + starting page number (remove E at beginning)"
+  },
+  "use_crossref_links": false,
+  "cookies": false,
+  "open_access": false,
+  "journals": null
+}
