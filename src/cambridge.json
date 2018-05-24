@@ -1,0 +1,21 @@
+{
+  "publisher": "Cambridge Core",
+  "publisher_parent": "Cambridge University Press",
+  "publisher_member": null,
+  "crossref_member": null,
+  "prefixes": ["10.1017"],
+  "urls": {
+    "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/%s.pdf"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": ".+"
+    }
+  },
+  "use_crossref_links": false,
+  "cookies": true,
+  "regex": null,
+  "open_access": true,
+  "journals": null
+}
