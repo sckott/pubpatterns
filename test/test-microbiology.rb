@@ -12,7 +12,7 @@ class TestMicrobiology < Test::Unit::TestCase
     @doi3 = '10.1099/jgv.0.001056' # title: Journal of General Virology
     @doi3 = '10.1099/mgen.0.000182' # title: Microbial Genomics
     @doi3 = '10.1099/jmmcr.0.005152' # title: JMM Case Reports
-    @doi3 = '10.1099/jmmcr.0.005130' # title: Journal of Medical Microbiology
+    @doi3 = '10.1099/jmm.0.000647' # title: Journal of Medical Microbiology
     @microbiology = MultiJson.load(File.open('src/microbiology.json'))
   end
 
