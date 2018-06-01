@@ -1,0 +1,138 @@
+{
+  "publisher": "microbiology",
+  "publisher_parent": null,
+  "crossref_member": 345,
+  "prefixes": [
+    "10.1099"
+  ],
+  "urls": null,
+  "components": null,
+  "use_crossref_links": false,
+  "cookies": true,
+  "regex": null,
+  "open_access": false,
+  "journals": [
+    {
+      "journal": "ijs",
+      "title": "International Journal of Systematic and Evolutionary Microbiology",
+      "issn": [
+        "1466-5034",
+        "1466-5026"
+      ],
+      "urls": {
+        "pdf": "http://ijs.microbiologyresearch.org/deliver/fulltext/ijsem/ijsem.%s.zip/ijsem%s.pdf",
+        "html": "http://ijs.microbiologyresearch.org/content/journal/ijsem/%s#tab2"
+      },
+      "components": {
+        "html": {
+          "regex": ".+"
+        },
+        "pdf": {
+          "regex": "[0-9]+$"
+        }
+      }
+    },
+    {
+      "journal": "mgen",
+      "title": "Microbial Genomics",
+      "issn": [
+        "1090-6592"
+      ],
+      "urls": {
+        "pdf": "http://mgen.microbiologyresearch.org/deliver/fulltext/mgen/mgen.%s.zip/mgen%s.pdf",
+        "html": "http://mgen.microbiologyresearch.org/content/journal/mgen/%s#tab2"
+      },
+      "components": {
+        "html": {
+          "regex": ".+"
+        },
+        "pdf": {
+          "regex": "[0-9]+$"
+        }
+      }
+    },
+    {
+      "journal": "jmmcr",
+      "title": "JMM Case Reports",
+      "issn": [
+        "2053-3721"
+      ],
+      "urls": {
+        "pdf": "http://jmmcr.microbiologyresearch.org/deliver/fulltext/jmmcr/jmmcr.%s.zip/jmmcr%s.pdf",
+        "html": "http://jmmcr.microbiologyresearch.org/content/journal/jmmcr/%s#tab2"
+      },
+      "components": {
+        "html": {
+          "regex": ".+"
+        },
+        "pdf": {
+          "regex": "[0-9]+$"
+        }
+      }
+    },
+    {
+      "journal": "mic",
+      "title": "Microbiology",
+      "issn": [
+        "1465-2080",
+        "1350-0872"
+      ],
+      "urls": {
+        "pdf": "http://mic.microbiologyresearch.org/deliver/fulltext/micro/%s/%s/%s_micro%s.pdf",
+        "html": "http://mic.microbiologyresearch.org/content/journal/micro/%s#tab2"
+      },
+      "components": {
+        "html": {
+          "regex": ".+"
+        },
+        "pdf": {
+          "regex": "[0-9]+$"
+        }
+      },
+      "notes": "pdf only: need volume, issue, start page - get via Crossref: retrieve volume, issue and page fields"
+    },
+    {
+      "journal": "jgv",
+      "title": "Journal of General Virology",
+      "issn": [
+        "1465-2099",
+        "0022-1317"
+      ],
+      "urls": {
+        "pdf": "http://jgv.microbiologyresearch.org/deliver/fulltext/jgv/%s/%s/%s_vir%s.pdf",
+        "html": "http://jgv.microbiologyresearch.org/content/journal/jgv/%s#tab2"
+      },
+      "components": {
+        "html": {
+          "regex": ".+"
+        },
+        "pdf": {
+          "regex": "[0-9]+$"
+        }
+      },
+      "notes": "pdf only: need volume, issue, start page - get via Crossref: retrieve volume, issue and page fields"
+    },
+    {
+      "journal": "jmm",
+      "title": "Journal of Medical Microbiology",
+      "issn": [
+        "1473-5644",
+        "0022-2615"
+      ],
+      "urls": {
+        "pdf": "http://jmm.microbiologyresearch.org/deliver/fulltext/jmm/%s/%s/%s_jmm%s.pdf",
+        "html": "http://jmm.microbiologyresearch.org/content/journal/jmm/%s#tab2"
+      },
+      "components": {
+        "html": {
+          "regex": ".+"
+        },
+        "pdf": {
+          "regex": "[0-9]+$"
+        }
+      },
+      "notes": "pdf only: need volume, issue, start page - get via Crossref: retrieve volume, issue and page fields"
+    }
+  ],
+  "notes": null
+}

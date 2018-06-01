@@ -16,7 +16,8 @@ class TestSpie < Test::Unit::TestCase
   def test_spie_keys
     assert_equal(
       @spie.keys().sort(),
-      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "open_access", 
+        "prefixes", "publisher", "publisher_parent", "regex", "urls", "use_crossref_links"]
     )
     assert_not_nil(@spie['urls'])
     assert_nil(@spie['journals'])

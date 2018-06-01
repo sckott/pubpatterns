@@ -16,7 +16,8 @@ class TestIop < Test::Unit::TestCase
   def test_iop_keys
     assert_equal(
       @iop.keys().sort(),
-      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "open_access", 
+        "prefixes", "publisher", "publisher_parent", "regex", "urls", "use_crossref_links"]
     )
     assert_not_nil(@iop['urls'])
     assert_nil(@iop['journals'])

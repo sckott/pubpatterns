@@ -12,7 +12,8 @@ class TestFrontiers < Test::Unit::TestCase
   def test_frontiers_keys
     assert_equal(
       @frontiers.keys().sort(),
-      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "open_access", 
+        "prefixes", "publisher", "publisher_parent", "regex", "urls", "use_crossref_links"]
     )
     assert_nil(@frontiers['journals'])
   end

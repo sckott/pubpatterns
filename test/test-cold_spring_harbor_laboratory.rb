@@ -13,7 +13,8 @@ class TestColdSpringHarborLaboratory < Test::Unit::TestCase
   def test_cshl_keys
     assert_equal(
       @cshl.keys().sort(),
-      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "open_access", 
+        "prefixes", "publisher", "publisher_parent", "regex", "urls", "use_crossref_links"]
     )
     assert_not_nil(@cshl['urls'])
     assert_nil(@cshl['journals'])

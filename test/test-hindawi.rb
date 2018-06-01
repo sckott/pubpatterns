@@ -15,7 +15,9 @@ class TestHindwawi < Test::Unit::TestCase
   def test_hindawi_keys
     assert_equal(
       @hindawi.keys().sort(),
-      ["components", "cookies","crossref_member", "journals", "notes", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "notes", 
+        "open_access", "prefixes", "publisher", "publisher_parent", 
+        "regex", "urls", "use_crossref_links"]
     )
     assert_not_nil(@hindawi['urls'])
     assert_nil(@hindawi['journals'])

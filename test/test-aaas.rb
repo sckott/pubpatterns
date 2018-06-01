@@ -13,7 +13,8 @@ class TestAAAS < Test::Unit::TestCase
   def test_aaas_keys
     assert_equal(
       @aaas.keys().sort(),
-      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", 
+        "publisher_parent", "regex", "urls", "use_crossref_links"]
     )
     assert_nil(@aaas['urls'])
     assert_not_nil(@aaas['journals'])

@@ -12,7 +12,8 @@ class TestPlos < Test::Unit::TestCase
   def test_plos_keys
     assert_equal(
       @plos.keys().sort(),
-      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "open_access", 
+        "prefixes", "publisher", "publisher_parent", "regex", "urls", "use_crossref_links"]
     )
     assert_nil(@plos['urls'])
     assert_not_nil(@plos['journals'])

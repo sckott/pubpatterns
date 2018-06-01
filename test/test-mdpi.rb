@@ -15,7 +15,8 @@ class TestMdpi < Test::Unit::TestCase
   def test_mdpi_keys
     assert_equal(
       @mdpi.keys().sort(),
-      ["components", "cookies","crossref_member", "journals", "open_access", "prefixes", "publisher", "publisher_parent", "regex", "urls"]
+      ["components", "cookies","crossref_member", "journals", "open_access", 
+        "prefixes", "publisher", "publisher_parent", "regex", "urls", "use_crossref_links"]
     )
     assert_not_nil(@mdpi['urls'])
     assert_nil(@mdpi['journals'])
