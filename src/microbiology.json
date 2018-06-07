@@ -20,7 +20,7 @@
         "1466-5026"
       ],
       "urls": {
-        "pdf": "http://ijs.microbiologyresearch.org/deliver/fulltext/ijsem/ijsem.%s.zip/ijsem%s.pdf",
+        "pdf": "http://ijs.microbiologyresearch.org/deliver/fulltext/ijsem/%s/%s/%s_ijsem%s.pdf",
         "html": "http://ijs.microbiologyresearch.org/content/journal/ijsem/%s#tab2"
       },
       "components": {
@@ -30,7 +30,8 @@
         "pdf": {
           "regex": "[0-9]+$"
         }
-      }
+      },
+      "notes": "pdf only: need volume, issue, start page - get via Crossref: retrieve volume, issue and page fields"
     },
     {
       "journal": "mgen",
