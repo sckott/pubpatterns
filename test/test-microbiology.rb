@@ -2,12 +2,14 @@ require "fileutils"
 require "test/unit"
 require "multi_json"
 require "faraday"
+require "faraday_middleware"
 
 class TestMicrobiology < Test::Unit::TestCase
 
   def setup
     # all OA articles, although most papers in this publisher are not OA
-    @doi1 = '10.1099/ijsem.0.002809' # title: Int. journal ...
+    @doi1 = '10.1099/ijsem.0.002809' # title: Int. journal ... this is an in press doi
+    @doi11 = '10.1099/ijsem.0.002699' # title: Int. journal ...
     @doi2 = '10.1099/mic.0.000664' # title: Microbiology
     @doi3 = '10.1099/jgv.0.001056' # title: Journal of General Virology
     @doi3 = '10.1099/mgen.0.000182' # title: Microbial Genomics
@@ -33,15 +35,20 @@ class TestMicrobiology < Test::Unit::TestCase
 
   # title: Int. journal
   def test_microbiology_pdf_int_journal
-    conndoi = Faraday.new(:url => 'http://api.crossref.org/works/%s' % @doi1) do |f|
+    conndoi = Faraday.new(:url => 'http://api.crossref.org/works/%s' % @doi11) do |f|
       f.adapter Faraday.default_adapter
     end
-    issn = MultiJson.load(conndoi.get.body)['message']['ISSN'][0];
+    x = MultiJson.load(conndoi.get.body);
+    issn = x['message']['ISSN'][0];
 
-    z = @doi1.match(@microbiology['journals'][0]['components']['pdf']['regex']).to_s
+    parts = [x['message']['volume'], x['message']['issue'], x['message']['page'].split('-')[0]]
+    z = @doi11.match(@microbiology['journals'][0]['components']['pdf']['regex']).to_s
+    parts.append(z)
+
     conn = Faraday.new(
       :url =>
-        @microbiology['journals'].select { |x| Array(x['issn']).select{ |z| !!z.match(issn) }.any? }[0]['urls']['pdf'] % [z, z]) do |f|
+        @microbiology['journals'].select { |x| Array(x['issn']).select{ |z| !!z.match(issn) }.any? }[0]['urls']['pdf'] % parts) do |f|
+      f.use FaradayMiddleware::FollowRedirects
       f.adapter Faraday.default_adapter
     end
 
