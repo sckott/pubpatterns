@@ -1,0 +1,26 @@
+{
+  "publisher": "american_society_for_microbiology",
+  "publisher_parent": null,
+  "crossref_member": 235,
+  "prefixes": [
+    "10.1128"
+  ],
+  "urls": {
+    "pdf": "https://%s.asm.org/content/%s/%s/e%s.full-text.pdf"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": ".+"
+    }
+  },
+  "use_crossref_links": false,
+  "cookies": false,
+  "regex": null,
+  "open_access": false,
+  "journals": null,
+  "notes": "pdf only: need volume and issue - get via Crossref: retrieve volume and issue fields"
+}
+// https://cvi.asm.org/content/24/10/e00178-17.full-text.pdf
+// https://iai.asm.org/content/86/8/e00340-18.full-text.pdf
+// https://mra.asm.org/content/7/14/e01234-18.full-text.pdf
