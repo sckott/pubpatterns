@@ -1,0 +1,84 @@
+{
+  "publisher": "company_of_biologists",
+  "publisher_parent": null,
+  "crossref_member": 237,
+  "prefixes": [ 
+    "10.1242",
+    "10.31981"
+  ],
+  "urls": null,
+  "journals": [
+    {
+      "journal": "journal-of-experimental-biology",
+      "issn": ["0022-0949", "1477-9145"],
+      "urls": {
+        "pdf": "http://jeb.biologists.org/content/jexbio/%s/%s/%s.full.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": null,
+        "notes": "don't need DOI other than to get metadata: volume number + issue number + starting page number"
+      }
+    },
+    {
+      "journal": "development",
+      "issn": ["0950-1991", "1477-9129"],
+      "urls": {
+        "pdf": "http://dev.biologists.org/content/develop/%s/%s/%s.full.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        },
+        "notes": "need metadata: volume number + issue number"
+      }
+    },
+    {
+      "journal": "journal-of-cell-science",
+      "issn": ["0021-9533", "1477-9137"],
+      "urls": {
+        "pdf": "http://jcs.biologists.org/content/joces/%s/%s/%s.full.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        },
+        "notes": "need metadata: volume number + issue number"
+      }
+    },
+    {
+      "journal": "disease-models-mechanisms",
+      "issn": ["1754-8403", "1754-8411"],
+      "urls": {
+        "pdf": "http://dmm.biologists.org/content/dmm/%s/%s/%s.full.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        },
+        "notes": "need metadata: volume number + issue number"
+      }
+    },
+    {
+      "journal": "biology-open",
+      "issn": ["2046-6390"],
+      "urls": {
+        "pdf": "http://bio.biologists.org/content/biolopen/%s/%s/%s.full.pdf"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        },
+        "notes": "need metadata: volume number + issue number"
+      }
+    }
+  ],
+  "components": null,
+  "use_crossref_links": false,
+  "cookies": true,
+  "open_access": false
+}
