@@ -1,0 +1,26 @@
+{
+  "publisher": "biorxiv",
+  "publisher_parent": null,
+  "crossref_member": 246,
+  "prefixes": [
+    "10.14224",
+    "10.1261",
+    "10.1101"
+  ],
+  "urls": {
+    "pdf": "https://www.biorxiv.org/content/biorxiv/early/%s/%s/%s/%s.full-text.pdf"
+  },
+  "components": {
+    "html": null,
+    "issn": null,
+    "doi": {
+      "regex": "[0-9]+$"
+    },
+    "notes": "sprint parts: year, month, day, 2nd part of DOI after forward slash; scrape landing page to get citation_pdf_url meta url"
+  },
+  "use_crossref_links": false,
+  "cookies": false,
+  "regex": null,
+  "open_access": true,
+  "journals": null
+}
