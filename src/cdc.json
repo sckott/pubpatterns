@@ -1,0 +1,25 @@
+{
+  "publisher": "cdc",
+  "publisher_parent": null,
+  "crossref_member": 1822,
+  "prefixes": [
+    "10.15620",
+    "10.3201",
+    "10.5888"
+  ],
+  "urls": {
+    "pdf": "https://www.cdc.gov/pcd/issues/%s/pdf/%s.pdf"
+  },
+  "components": {
+    "html": null,
+    "doi": {
+      "regex": ".+"
+    }
+  },
+  "use_crossref_links": false,
+  "cookies": false,
+  "regex": null,
+  "open_access": true,
+  "journals": null,
+  "notes": null
+}
