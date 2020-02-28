@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.5.1'
+ruby '2.7.0'
 
 gem 'rake', '~> 12.3'
 gem 'test-unit', '~> 3.2', '>= 3.2.3'
