@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.5.1'
 
-gem 'rake', '~> 11.1', '>= 11.1.2'
+gem 'rake', '~> 12.3'
 gem 'test-unit', '~> 3.2', '>= 3.2.3'
 gem 'multi_json', '~> 1.12', '>= 1.12.1'
 gem 'faraday', '~> 0.11.0'

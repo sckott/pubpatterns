@@ -29,7 +29,7 @@ GEM
       ruby-rc4
       ttfunk
     power_assert (1.0.1)
-    rake (11.3.0)
+    rake (12.3.3)
     ruby-ll (2.1.2)
       ansi
       ast
@@ -52,7 +52,7 @@ DEPENDENCIES
   multi_json (~> 1.12, >= 1.12.1)
   oga (~> 2.9)
   pdf-reader (~> 2.0)
-  rake (~> 11.1, >= 11.1.2)
+  rake (~> 12.3)
   test-unit (~> 3.2, >= 3.2.3)
   uuidtools (~> 2.1, >= 2.1.5)
 
