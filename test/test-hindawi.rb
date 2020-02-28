@@ -51,6 +51,8 @@ class TestHindwawi < Test::Unit::TestCase
     xx = rr.page 1
     assert_equal(String, xx.text.class)
     assert_match('Trust Mechanisms to Secure Routing in Wireless', xx.text)
+
+    File.delete(path) if File.exists? path
   end
 
   def test_hindawi_xml
