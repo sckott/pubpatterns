@@ -38,7 +38,7 @@ class TestHindwawi < Test::Unit::TestCase
 
     assert_equal(Faraday::Response, res.class)
     assert_equal(String, res.body.class)
-    assert_equal("application/octet-stream", res.headers['content-type'])
+    assert_equal("application/pdf", res.headers['content-type'])
 
     path = make_path("pdf")
     f = File.new(path, "wb")
