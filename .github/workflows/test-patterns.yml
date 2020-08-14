@@ -1,4 +1,4 @@
-name: Ruby
+name: test patterns
 
 on:
   push:
