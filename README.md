@@ -1,7 +1,7 @@
 pubpatterns
 ===========
 
-[![Build Status](https://travis-ci.org/ropenscilabs/pubpatterns.svg?branch=master)](https://travis-ci.org/ropenscilabs/pubpatterns)
+[![Ruby](https://github.com/ropenscilabs/pubpatterns/workflows/Ruby/badge.svg)](https://github.com/ropenscilabs/pubpatterns/actions?query=workflow%3ARuby)
 
 Use publisher URL patterns to generate full text links to scholarly articles.
 
