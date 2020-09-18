@@ -1,7 +1,7 @@
 pubpatterns
 ===========
 
-[![Ruby](https://github.com/ropenscilabs/pubpatterns/workflows/Ruby/badge.svg)](https://github.com/ropenscilabs/pubpatterns/actions?query=workflow%3ARuby)
+[![Ruby](https://github.com/sckott/pubpatterns/workflows/Ruby/badge.svg)](https://github.com/sckott/pubpatterns/actions?query=workflow%3ARuby)
 
 Use publisher URL patterns to generate full text links to scholarly articles.
 
@@ -39,5 +39,3 @@ let us know we need to fix something.
 
 Please do contribute! Fork, make a feature branch, add a `.json` file in `src/`,
 add a test in `test/`, send a pull request to this repo. Thanks!
-
-[![rofooter](http://ropensci.org/public_images/github_footer.png)](http://ropensci.org)
