@@ -4,7 +4,7 @@
   "crossref_member": 341,
   "prefixes": [ "10.1073" ],
   "urls": {
-    "pdf": "http://www.pnas.org/content/%s/%s/%s.full.pdf"
+    "pdf": "https://www.pnas.org/content/pnas/%s/%s/%s.full.pdf"
   },
   "components": {
     "html": null,

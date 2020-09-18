@@ -6,7 +6,7 @@
     "10.1200"
   ],
   "urls": {
-    "pdf": "http://ascopubs.org/doi/pdfdirect/%s"
+    "pdf": "https://ascopubs.org/doi/pdfdirect/%s"
   },
   "components": {
     "html": null,

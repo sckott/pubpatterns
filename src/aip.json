@@ -6,7 +6,7 @@
     "10.1063"
   ],
   "urls": {
-    "pdf": "http://aip.scitation.org/doi/pdf/%s"
+    "pdf": "https://aip.scitation.org/doi/pdf/%s"
   },
   "components": {
     "html": null,

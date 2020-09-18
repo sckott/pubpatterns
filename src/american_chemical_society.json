@@ -7,7 +7,9 @@
     "10.1021",
     "10.29200"
   ],
-  "urls": null,
+  "urls": {
+    "pdf": "https://pubs.acs.org/doi/pdf/%s"
+  },
   "components": {
     "html": null,
     "doi": {

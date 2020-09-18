@@ -14,7 +14,7 @@
       "part": ".message.ISSN"
     },
     "doi": {
-      "regex": "[0-9]{4}+$"
+      "regex": "[0-9]{4}$"
     },
     "notes": "crossref api request (components.issn.url + DOI) to get ISSN"
   },

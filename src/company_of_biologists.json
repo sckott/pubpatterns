@@ -12,7 +12,7 @@
       "journal": "journal-of-experimental-biology",
       "issn": ["0022-0949", "1477-9145"],
       "urls": {
-        "pdf": "http://jeb.biologists.org/content/jexbio/%s/%s/%s.full.pdf"
+        "pdf": "https://jeb.biologists.org/content/jexbio/%s/%s/%s.1.full.pdf"
       },
       "components": {
         "html": null,
@@ -24,7 +24,7 @@
       "journal": "development",
       "issn": ["0950-1991", "1477-9129"],
       "urls": {
-        "pdf": "http://dev.biologists.org/content/develop/%s/%s/%s.full.pdf"
+        "pdf": "https://dev.biologists.org/content/develop/%s/%s/%s.full.pdf"
       },
       "components": {
         "html": null,
@@ -38,7 +38,7 @@
       "journal": "journal-of-cell-science",
       "issn": ["0021-9533", "1477-9137"],
       "urls": {
-        "pdf": "http://jcs.biologists.org/content/joces/%s/%s/%s.full.pdf"
+        "pdf": "https://jcs.biologists.org/content/joces/%s/%s/%s.full.pdf"
       },
       "components": {
         "html": null,
@@ -52,7 +52,7 @@
       "journal": "disease-models-mechanisms",
       "issn": ["1754-8403", "1754-8411"],
       "urls": {
-        "pdf": "http://dmm.biologists.org/content/dmm/%s/%s/%s.full.pdf"
+        "pdf": "https://dmm.biologists.org/content/dmm/%s/%s/%s.full.pdf"
       },
       "components": {
         "html": null,
@@ -66,7 +66,7 @@
       "journal": "biology-open",
       "issn": ["2046-6390"],
       "urls": {
-        "pdf": "http://bio.biologists.org/content/biolopen/%s/%s/%s.full.pdf"
+        "pdf": "https://bio.biologists.org/content/biolopen/%s/%s/%s.full.pdf"
       },
       "components": {
         "html": null,

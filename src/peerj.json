@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "peerj-computer-science",
+      "journal": "peerj-computer-science",
       "issn": "2376-5992",
       "urls": {
         "pdf": "https://peerj.com/articles/cs-%s.pdf",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "name": "peerj-preprints",
+      "journal": "peerj-preprints",
       "issn": "2167-9843",
       "urls": {
         "pdf": "https://peerj.com/preprints/%s.pdf",

@@ -264,6 +264,20 @@
           "regex": "[0-9]+$"
         }
       }
+    },
+    {
+      "journal": "subterranean-biology",
+      "issn": ["1314-2615","1768-1448"],
+      "urls": {
+        "pdf": "https://subtbiol.pensoft.net/article/%s/download/pdf/",
+        "xml": "https://subtbiol.pensoft.net/article/%s/download/xml/"
+      },
+      "components": {
+        "html": null,
+        "doi": {
+          "regex": "[0-9]+$"
+        }
+      }
     }
   ]
 }
