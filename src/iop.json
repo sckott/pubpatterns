@@ -7,7 +7,7 @@
     "10.1088"
   ],
   "urls": {
-    "pdf": "http://iopscience.iop.org/article/%s/pdf"
+    "pdf": "https://iopscience.iop.org/article/%s/pdf"
   },
   "components": {
     "html": null,

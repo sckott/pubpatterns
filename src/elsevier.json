@@ -31,8 +31,8 @@
     "10.3182"
   ],
   "urls": {
-    "xml": "http://api.elsevier.com/content/article/PII:%s?httpAccept=text/xml",
-    "plain": "http://api.elsevier.com/content/article/PII:%s?httpAccept=text/plain"
+    "xml": "https://api.elsevier.com/content/article/PII:%s?httpAccept=text/xml",
+    "plain": "https://api.elsevier.com/content/article/PII:%s?httpAccept=text/plain"
   },
   "components": {
     "html": null,

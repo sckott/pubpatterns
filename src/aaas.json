@@ -15,7 +15,7 @@
       "open_access": false,
       "issn": "1095-9203",
       "urls": {
-        "pdf": "http://science.sciencemag.org/content/%s/%s/%s.full.pdf"
+        "pdf": "https://science.sciencemag.org/content/%s/%s/%s.full.pdf"
       },
       "components": {
         "html": {
@@ -41,7 +41,7 @@
       "open_access": true,
       "issn": "2375-2548",
       "urls": {
-        "pdf": "http://advances.sciencemag.org/content/advances/%s/%s/e%s.full.pdf"
+        "pdf": "https://advances.sciencemag.org/content/advances/%s/%s/e%s.full.pdf"
       },
       "components": {
         "html": {
@@ -65,7 +65,7 @@
       "open_access": false,
       "issn": "1946-6242",
       "urls": {
-        "pdf": "http://stm.sciencemag.org/content/advances/%s/%s/e%s.full.pdf"
+        "pdf": "https://stm.sciencemag.org/content/advances/%s/%s/e%s.full.pdf"
       },
       "components": {
         "html": {
@@ -89,9 +89,9 @@
     {
       "name": "science-signaling",
       "open_access": false,
-      "issn": "1937-9145",
+      "issn": ["1937-9145", "1525-8882"],
       "urls": {
-        "pdf": "http://stke.sciencemag.org/content/advances/%s/%s/e%s.full.pdf"
+        "pdf": "https://stke.sciencemag.org/content/%s/%s/%s.full.pdf"
       },
       "components": {
         "html": {
