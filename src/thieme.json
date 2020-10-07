@@ -8,7 +8,7 @@
   "cookies": false,
   "regex": null,
   "open_access": null,
-  "use_crossref_links": false,
+  "use_crossref_links": true,
   "journals": [
     {
       "journal": "american-journal-of-perinatology-reports",
